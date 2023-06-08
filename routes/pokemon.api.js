@@ -82,4 +82,42 @@ router.get("/", (req, res, next) => {
   }
 });
 
+/**
+ * params: /
+ * description: get detail pokemon
+ * query:
+ * method: get
+ */
+router.get("/:pokemonId", (req, res, next) => {
+  try {
+    const { pokemonId } = req.params;
+    // Read data from db.json and parse JS object
+    let db = fs.readFileSync("db.json", "utf-8");
+    db = JSON.parse(db);
+    const { pokemons } = db;
+    // Find the index of the requested Pokémon
+    const index = pokemons.findIndex((pokemon) => pokemon.Id === pokemonId);
+    if (index === -1) {
+      // If Pokémon with the requested id doesn't exist, return 404 status
+      return res.status(404).json({ message: "Pokémon not found" });
+    }
+    // Get the requested Pokémon
+    const requestedPokemon = pokemons[index];
+    // Get the previous Pokémon
+    const previousPokemon =
+      pokemons[index - 1] || pokemons[pokemons.length - 1];
+    // Get the next Pokémon
+    const nextPokemon = pokemons[index + 1] || pokemons[0];
+
+    // Send the response
+    res.status(200).json({
+      requestedPokemon,
+      previousPokemon,
+      nextPokemon,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
 module.exports = router;
