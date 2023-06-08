@@ -39,7 +39,7 @@ getDataPokemon();
  * method: get
  */
 router.get("/", (req, res, next) => {
-  const allowedFilter = ["Name", "Type1", "Type2"];
+  const allowedFilter = ["Name", "Type"];
 
   try {
     let { page, limit, ...filterQuery } = req.query;
@@ -63,10 +63,16 @@ router.get("/", (req, res, next) => {
     // Filter data based on the specified filters
     let result = pokemons;
     filterKeys.forEach((condition) => {
-      result = result.filter(
-        (pokemon) => pokemon[condition] === filters[condition]
-      );
+      result = result.filter((pokemon) => {
+        const pokemonValue =
+          condition === "Type"
+            ? (pokemon["Type1"] + pokemon["Type2"]).toLowerCase()
+            : pokemon[condition].toLowerCase();
+        const filterValue = filters[condition].toLowerCase();
+        return pokemonValue.includes(filterValue);
+      });
     });
+
     // Then select the number of results by offset
     result = result.slice(offset, offset + limit);
     // Send the response
