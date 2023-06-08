@@ -43,46 +43,30 @@ router.get("/", (req, res, next) => {
     let { page, limit, ...filterQuery } = req.query;
     page = parseInt(page) || 1;
     limit = parseInt(limit) || 10;
-    //allow title,limit and page query string only
-    const filterKeys = Object.keys(filterQuery);
+    // Allow only specified filters
+    const filterKeys = Object.keys(filterQuery).filter((key) =>
+      allowedFilter.includes(key)
+    );
+    // Build the filter object
+    const filters = {};
     filterKeys.forEach((key) => {
-      if (!allowedFilter.includes(key)) {
-        const exception = new Error(`Query ${key} is not allowed`);
-        exception.statusCode = 401;
-        throw exception;
-      }
-      if (!filterQuery[key]) delete filterQuery[key];
+      filters[key] = filterQuery[key];
     });
-
-    //Number of items skip for selection
+    // Number of items to skip for selection
     let offset = limit * (page - 1);
-
-    // Read data from db.json then parse JSobject
+    // Read data from db.json and parse JS object
     let db = fs.readFileSync("db.json", "utf-8");
     db = JSON.parse(db);
     const { pokemon } = db;
-
-    //Filter data by title
-    let result = [];
-
-    if (filterKeys.length) {
-      filterKeys.forEach((condition) => {
-        result = result.length
-          ? result.filter(
-              (pokemon) => pokemon[condition] === filterQuery[condition]
-            )
-          : pokemon.filter(
-              (pokemon) => pokemon[condition] === filterQuery[condition]
-            );
-      });
-    } else {
-      result = pokemon;
-    }
-    //then select number of result by offset
+    // Filter data based on the specified filters
+    let result = pokemon;
+    filterKeys.forEach((condition) => {
+      result = result.filter((poke) => poke[condition] === filters[condition]);
+    });
+    // Then select the number of results by offset
     result = result.slice(offset, offset + limit);
-
-    //send response
-    res.status(200).json(pokemon);
+    // Send the response
+    res.status(200).json(result);
   } catch (error) {
     next(error);
   }
