@@ -163,21 +163,26 @@ router.post("/", (req, res, next) => {
     // Read data from db.json then parse to JS object
     let db = fs.readFileSync("db.json", "utf-8");
     db = JSON.parse(db);
-    let { pokemons } = db;
+
+    let { totalPokemons, pokemons } = db;
 
     // Get the last Pokémon's ID and increment it by 1 for the new Pokémon
     const newPokemonId = (pokemons.length + 1).toString();
 
     // Post processing
     const newPokemon = {
+      id: newPokemonId,
       name,
       types,
       url,
-      id: newPokemonId,
     };
 
     // Add new pokemon to pokemon JS object
     pokemons.push(newPokemon);
+
+    totalPokemons++;
+    db.totalPokemons = totalPokemons;
+    
     // Update pokemons array in db JS object
     db.pokemons = pokemons;
     // Convert db JS object to JSON string
