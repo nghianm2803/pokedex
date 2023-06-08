@@ -1,5 +1,5 @@
 {
-  "totalPokemons": 724,
+  "totalPokemons": 727,
   "pokemons": [
     {
       "id": "1",
@@ -4328,21 +4328,9 @@
       "url": "public/images/volcanion.png"
     },
     {
-      "id": "722",
-      "name": "hello goodbye",
+      "id": "727",
+      "name": "hello vfdv hello",
       "types": ["water", "fire"],
-      "url": "public/images/vikavolt.jpg"
-    },
-    {
-      "id": "723",
-      "name": "hello hello",
-      "types": ["water", "fire"],
-      "url": "public/images/vikavolt.jpg"
-    },
-    {
-      "id": "724",
-      "name": "hello 111 hello",
-      "types": ["water", "grass"],
       "url": "public/images/vikavolt.jpg"
     }
   ]

@@ -232,8 +232,12 @@ router.post("/", (req, res, next) => {
       throw exception;
     }
 
-    // Get the last Pokemon's ID and increment it by 1 for the new Pokemon
-    const newPokemonId = (pokemons.length + 1).toString();
+    // Check maxID and increment it by 1 for the new Pokemon
+    let maxPokemonId = Math.max(
+      ...db.pokemons.map((pokemon) => parseInt(pokemon.id))
+    );
+
+    const newPokemonId = (maxPokemonId + 1).toString();
 
     // Post processing
     const newPokemon = {
@@ -242,6 +246,7 @@ router.post("/", (req, res, next) => {
       types,
       url,
     };
+    maxPokemonId += 1;
 
     // Add new pokemon to pokemon JS object
     pokemons.push(newPokemon);
@@ -361,6 +366,54 @@ router.put("/:pokemonId", (req, res, next) => {
 
     //put send response
     res.status(200).send(updatedPokemon);
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * params: /
+ * description: delete a pokemon
+ * query:
+ * method: delete
+ */
+
+router.delete("/:pokemonId", (req, res, next) => {
+  //delete input validation
+  try {
+    const { pokemonId } = req.params;
+
+    // Read data from db.json and parse it to a JavaScript object
+    let db = fs.readFileSync("db.json", "utf-8");
+    db = JSON.parse(db);
+    const { totalPokemons, pokemons } = db;
+
+    // Find the index of the Pokemon to be deleted
+    const targetIndex = pokemons.findIndex(
+      (pokemon) => pokemon.id === pokemonId
+    );
+
+    // If the Pokemon is not found, return a 404 error
+    if (targetIndex < 0) {
+      const exception = new Error("Pokemon not found");
+      exception.statusCode = 404;
+      throw exception;
+    }
+
+    // Remove the Pokemon from the "pokemons" array
+    db.pokemons.splice(targetIndex, 1);
+
+    // Update totalPokemons count
+    db.totalPokemons -= 1;
+
+    // Convert the updated database object to a JSON string
+    db = JSON.stringify(db);
+
+    // Write and save the updated data to db.json
+    fs.writeFileSync("db.json", db);
+
+    // Send a successful response
+    res.status(200).send({});
   } catch (error) {
     next(error);
   }
