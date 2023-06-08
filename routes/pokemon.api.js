@@ -8,17 +8,19 @@ const getDataPokemon = async () => {
     let newData = await csv().fromFile("pokemon.csv");
     const pokemonWithImages = [];
 
-    for (const pokemon of newData) {
-      const imageName = `${pokemon.Name}.png`;
+    for (let i = 0; i < newData.length; i++) {
+      const pokemons = newData[i];
+      const imageName = `${pokemons.Name}.png`;
       const imagePath = `public/images/${imageName}`;
 
       if (fs.existsSync(imagePath)) {
-        pokemonWithImages.push(pokemon);
+        pokemons.Id = (i + 1).toString();
+        pokemonWithImages.push(pokemons);
       }
     }
 
     let data = JSON.parse(fs.readFileSync("db.json"));
-    data.pokemon = pokemonWithImages;
+    data.pokemons = pokemonWithImages;
 
     fs.writeFileSync("db.json", JSON.stringify(data));
     console.log("Data update successful.");
@@ -57,11 +59,13 @@ router.get("/", (req, res, next) => {
     // Read data from db.json and parse JS object
     let db = fs.readFileSync("db.json", "utf-8");
     db = JSON.parse(db);
-    const { pokemon } = db;
+    const { pokemons } = db;
     // Filter data based on the specified filters
-    let result = pokemon;
+    let result = pokemons;
     filterKeys.forEach((condition) => {
-      result = result.filter((poke) => poke[condition] === filters[condition]);
+      result = result.filter(
+        (pokemon) => pokemon[condition] === filters[condition]
+      );
     });
     // Then select the number of results by offset
     result = result.slice(offset, offset + limit);
