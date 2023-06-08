@@ -10,7 +10,7 @@ const getDataPokemon = async () => {
 
     for (let i = 0; i < newData.length; i++) {
       const pokemon = newData[i];
-      const imageName = `${pokemon.Name.toLowerCase()}.png`;
+      const imageName = `${pokemon.Name}.png`;
       const imagePath = `public/images/${imageName}`;
 
       if (fs.existsSync(imagePath)) {
@@ -26,17 +26,22 @@ const getDataPokemon = async () => {
         }
 
         const newPokemon = {
-          Id: (i + 1).toString(),
-          Name: pokemon.Name,
-          Types: types,
-          Url: imageUrl,
+          id: (i + 1).toString(),
+          name: pokemon.Name,
+          types: types,
+          url: imageUrl,
         };
 
         pokemonWithImages.push(newPokemon);
       }
     }
 
-    let data = { pokemons: pokemonWithImages };
+    const totalPokemons = pokemonWithImages.length;
+
+    let data = {
+      totalPokemons: totalPokemons,
+      pokemons: pokemonWithImages,
+    };
 
     fs.writeFileSync("db.json", JSON.stringify(data));
     console.log("Data update successful.");
@@ -55,7 +60,7 @@ getDataPokemon();
  * method: get
  */
 router.get("/", (req, res, next) => {
-  const allowedFilter = ["Name", "Types"];
+  const allowedFilter = ["name", "types"];
 
   try {
     let { page, limit, ...filterQuery } = req.query;
@@ -80,9 +85,9 @@ router.get("/", (req, res, next) => {
     let result = pokemons;
     filterKeys.forEach((condition) => {
       result = result.filter((pokemon) => {
-        if (condition === "Types") {
+        if (condition === "types") {
           const filterValue = filters[condition].toLowerCase();
-          return pokemon.Types.includes(filterValue);
+          return pokemon.types.includes(filterValue);
         } else {
           const pokemonValue = pokemon[condition].toLowerCase();
           const filterValue = filters[condition].toLowerCase();
@@ -114,7 +119,7 @@ router.get("/:pokemonId", (req, res, next) => {
     db = JSON.parse(db);
     const { pokemons } = db;
     // Find the index of the requested Pokémon
-    const index = pokemons.findIndex((pokemon) => pokemon.Id === pokemonId);
+    const index = pokemons.findIndex((pokemon) => pokemon.id === pokemonId);
     if (index === -1) {
       // If Pokémon with the requested id doesn't exist, return 404 status
       return res.status(404).json({ message: "Pokémon not found" });
@@ -145,47 +150,46 @@ router.get("/:pokemonId", (req, res, next) => {
  * method: post
  */
 
-// router.post("/", (req, res, next) => {
-//   //post input validation
-//   try {
-//     const { Name, Type1, Type2, Url } = req.body;
-//     if (!Name || !Type1 || !Type2 || !Url) {
-//       const exception = new Error(`Missing body info`);
-//       exception.statusCode = 401;
-//       throw exception;
-//     }
+router.post("/", (req, res, next) => {
+  try {
+    const { name, types, url } = req.body;
 
-//     // Get the last Pokémon's ID and increment it by 1 for the new Pokémon
-//     const lastPokemon = data.pokemons[data.pokemons.length - 1];
-//     const newPokemonId = parseInt(lastPokemon.Id) + 1;
+    if (!name || !types || !url) {
+      const exception = new Error(`Missing body info`);
+      exception.statusCode = 401;
+      throw exception;
+    }
 
-//     //post processing
-//     const newPokemon = {
-//       Name,
-//       Type1,
-//       Type2,
-//       Url,
-//       Id: newPokemonId.toString(),
-//     };
-//     //Read data from db.json then parse to JSobject
-//     let db = fs.readFileSync("db.json", "utf-8");
-//     db = JSON.parse(db);
-//     const { pokemons } = db;
+    // Read data from db.json then parse to JS object
+    let db = fs.readFileSync("db.json", "utf-8");
+    db = JSON.parse(db);
+    let { pokemons } = db;
 
-//     //Add new pokemon to pokemon JS object
-//     pokemons.push(newPokemon);
-//     //Add new pokemon to db JS object
-//     db.pokemons = pokemons;
-//     //db JSobject to JSON string
-//     db = JSON.stringify(db);
-//     //write and save to db.json
-//     fs.writeFileSync("db.json", db);
+    // Get the last Pokémon's ID and increment it by 1 for the new Pokémon
+    const newPokemonId = (pokemons.length + 1).toString();
 
-//     //post send response
-//     res.status(200).send(newPokemon);
-//   } catch (error) {
-//     next(error);
-//   }
-// });
+    // Post processing
+    const newPokemon = {
+      name,
+      types,
+      url,
+      id: newPokemonId,
+    };
+
+    // Add new pokemon to pokemon JS object
+    pokemons.push(newPokemon);
+    // Update pokemons array in db JS object
+    db.pokemons = pokemons;
+    // Convert db JS object to JSON string
+    db = JSON.stringify(db);
+    // Write and save to db.json
+    fs.writeFileSync("db.json", db);
+
+    // Send response
+    res.status(200).send(newPokemon);
+  } catch (error) {
+    next(error);
+  }
+});
 
 module.exports = router;
