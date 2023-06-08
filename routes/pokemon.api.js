@@ -118,18 +118,18 @@ router.get("/:pokemonId", (req, res, next) => {
     let db = fs.readFileSync("db.json", "utf-8");
     db = JSON.parse(db);
     const { pokemons } = db;
-    // Find the index of the requested Pokémon
+    // Find the index of the requested Pokemon
     const index = pokemons.findIndex((pokemon) => pokemon.id === pokemonId);
     if (index === -1) {
-      // If Pokémon with the requested id doesn't exist, return 404 status
-      return res.status(404).json({ message: "Pokémon not found" });
+      // If Pokemon with the requested id doesn't exist, return 404 status
+      return res.status(404).json({ message: "Pokemon not found" });
     }
-    // Get the requested Pokémon
+    // Get the requested Pokemon
     const requestedPokemon = pokemons[index];
-    // Get the previous Pokémon
+    // Get the previous Pokemon
     const previousPokemon =
       pokemons[index - 1] || pokemons[pokemons.length - 1];
-    // Get the next Pokémon
+    // Get the next Pokemon
     const nextPokemon = pokemons[index + 1] || pokemons[0];
 
     // Send the response
@@ -154,11 +154,17 @@ router.post("/", (req, res, next) => {
   try {
     const { name, types, url } = req.body;
 
-    if (!name || !types || !url) {
-      const exception = new Error(`Missing body info`);
-      exception.statusCode = 401;
-      throw exception;
+    // Validate input
+    function validatePokemon(fields, errorMessage) {
+      if (!fields) {
+        const exception = new Error(errorMessage);
+        exception.statusCode = 401;
+        throw exception;
+      }
     }
+    validatePokemon(name, "Missing Pokemon's name");
+    validatePokemon(types, "Missing Pokemon's type");
+    validatePokemon(url, "Missing Pokemon's URL");
 
     // Read data from db.json then parse to JS object
     let db = fs.readFileSync("db.json", "utf-8");
@@ -166,7 +172,60 @@ router.post("/", (req, res, next) => {
 
     let { totalPokemons, pokemons } = db;
 
-    // Get the last Pokémon's ID and increment it by 1 for the new Pokémon
+    // Check for duplicate pokemon name
+    if (
+      pokemons.some(
+        (pokemon) => pokemon.name.toLowerCase() === name.toLowerCase()
+      )
+    ) {
+      const exception = new Error(
+        `Pokémon with the name '${name}' already exists.`
+      );
+      exception.statusCode = 401;
+      throw exception;
+    }
+
+    const pokemonTypes = [
+      "bug",
+      "dragon",
+      "fairy",
+      "fire",
+      "ghost",
+      "ground",
+      "normal",
+      "psychic",
+      "steel",
+      "dark",
+      "electric",
+      "fighting",
+      "flyingText",
+      "grass",
+      "ice",
+      "poison",
+      "rock",
+      "water",
+    ];
+
+    if (
+      types.some((type) => !pokemonTypes.includes(type)) ||
+      types.length !== new Set(types).size ||
+      types.length > 2
+    ) {
+      let errorMessage;
+      if (types.some((type) => !pokemonTypes.includes(type))) {
+        errorMessage = "Pokemon's type is invalid.";
+      } else if (types.length !== new Set(types).size) {
+        errorMessage = "Pokemon cannot have duplicate types.";
+      } else {
+        errorMessage = "Each Pokemon can have a maximum of 2 types.";
+      }
+
+      const exception = new Error(errorMessage);
+      exception.statusCode = 401;
+      throw exception;
+    }
+
+    // Get the last Pokemon's ID and increment it by 1 for the new Pokemon
     const newPokemonId = (pokemons.length + 1).toString();
 
     // Post processing
@@ -180,9 +239,10 @@ router.post("/", (req, res, next) => {
     // Add new pokemon to pokemon JS object
     pokemons.push(newPokemon);
 
+    // Update total pokemons
     totalPokemons++;
     db.totalPokemons = totalPokemons;
-    
+
     // Update pokemons array in db JS object
     db.pokemons = pokemons;
     // Convert db JS object to JSON string
