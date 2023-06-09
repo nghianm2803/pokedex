@@ -1,4349 +1,4331 @@
 {
-  "totalPokemons": 724,
+  "totalPokemons": 721,
   "pokemons": [
     {
       "id": "1",
       "name": "bulbasaur",
       "types": ["grass", "poison"],
-      "url": "public/images/bulbasaur.png"
+      "url": "http://localhost:8080/images/bulbasaur.png"
     },
     {
       "id": "2",
       "name": "ivysaur",
       "types": ["grass", "poison"],
-      "url": "public/images/ivysaur.png"
+      "url": "http://localhost:8080/images/ivysaur.png"
     },
     {
       "id": "3",
       "name": "venusaur",
       "types": ["grass", "poison"],
-      "url": "public/images/venusaur.png"
+      "url": "http://localhost:8080/images/venusaur.png"
     },
     {
       "id": "4",
       "name": "charmander",
       "types": ["fire"],
-      "url": "public/images/charmander.png"
+      "url": "http://localhost:8080/images/charmander.png"
     },
     {
       "id": "5",
       "name": "charmeleon",
       "types": ["fire"],
-      "url": "public/images/charmeleon.png"
+      "url": "http://localhost:8080/images/charmeleon.png"
     },
     {
       "id": "6",
       "name": "charizard",
       "types": ["fire", "flying"],
-      "url": "public/images/charizard.png"
+      "url": "http://localhost:8080/images/charizard.png"
     },
     {
       "id": "7",
       "name": "squirtle",
       "types": ["water"],
-      "url": "public/images/squirtle.png"
+      "url": "http://localhost:8080/images/squirtle.png"
     },
     {
       "id": "8",
       "name": "wartortle",
       "types": ["water"],
-      "url": "public/images/wartortle.png"
+      "url": "http://localhost:8080/images/wartortle.png"
     },
     {
       "id": "9",
       "name": "blastoise",
       "types": ["water"],
-      "url": "public/images/blastoise.png"
+      "url": "http://localhost:8080/images/blastoise.png"
     },
     {
       "id": "10",
       "name": "caterpie",
       "types": ["bug"],
-      "url": "public/images/caterpie.png"
+      "url": "http://localhost:8080/images/caterpie.png"
     },
     {
       "id": "11",
       "name": "metapod",
       "types": ["bug"],
-      "url": "public/images/metapod.png"
+      "url": "http://localhost:8080/images/metapod.png"
     },
     {
       "id": "12",
       "name": "butterfree",
       "types": ["bug", "flying"],
-      "url": "public/images/butterfree.png"
+      "url": "http://localhost:8080/images/butterfree.png"
     },
     {
       "id": "13",
       "name": "weedle",
       "types": ["bug", "poison"],
-      "url": "public/images/weedle.png"
+      "url": "http://localhost:8080/images/weedle.png"
     },
     {
       "id": "14",
       "name": "kakuna",
       "types": ["bug", "poison"],
-      "url": "public/images/kakuna.png"
+      "url": "http://localhost:8080/images/kakuna.png"
     },
     {
       "id": "15",
       "name": "beedrill",
       "types": ["bug", "poison"],
-      "url": "public/images/beedrill.png"
+      "url": "http://localhost:8080/images/beedrill.png"
     },
     {
       "id": "16",
       "name": "pidgey",
       "types": ["normal", "flying"],
-      "url": "public/images/pidgey.png"
+      "url": "http://localhost:8080/images/pidgey.png"
     },
     {
       "id": "17",
       "name": "pidgeotto",
       "types": ["normal", "flying"],
-      "url": "public/images/pidgeotto.png"
+      "url": "http://localhost:8080/images/pidgeotto.png"
     },
     {
       "id": "18",
       "name": "pidgeot",
       "types": ["normal", "flying"],
-      "url": "public/images/pidgeot.png"
+      "url": "http://localhost:8080/images/pidgeot.png"
     },
     {
       "id": "19",
       "name": "rattata",
       "types": ["normal"],
-      "url": "public/images/rattata.png"
+      "url": "http://localhost:8080/images/rattata.png"
     },
     {
       "id": "20",
       "name": "raticate",
       "types": ["normal"],
-      "url": "public/images/raticate.png"
+      "url": "http://localhost:8080/images/raticate.png"
     },
     {
       "id": "21",
       "name": "spearow",
       "types": ["normal", "flying"],
-      "url": "public/images/spearow.png"
+      "url": "http://localhost:8080/images/spearow.png"
     },
     {
       "id": "22",
       "name": "fearow",
       "types": ["normal", "flying"],
-      "url": "public/images/fearow.png"
+      "url": "http://localhost:8080/images/fearow.png"
     },
     {
       "id": "23",
       "name": "ekans",
       "types": ["poison"],
-      "url": "public/images/ekans.png"
+      "url": "http://localhost:8080/images/ekans.png"
     },
     {
       "id": "24",
       "name": "arbok",
       "types": ["poison"],
-      "url": "public/images/arbok.png"
+      "url": "http://localhost:8080/images/arbok.png"
     },
     {
       "id": "25",
       "name": "pikachu",
       "types": ["electric"],
-      "url": "public/images/pikachu.png"
+      "url": "http://localhost:8080/images/pikachu.png"
     },
     {
       "id": "26",
       "name": "raichu",
       "types": ["electric"],
-      "url": "public/images/raichu.png"
+      "url": "http://localhost:8080/images/raichu.png"
     },
     {
       "id": "27",
       "name": "sandshrew",
       "types": ["ground"],
-      "url": "public/images/sandshrew.png"
+      "url": "http://localhost:8080/images/sandshrew.png"
     },
     {
       "id": "28",
       "name": "sandslash",
       "types": ["ground"],
-      "url": "public/images/sandslash.png"
+      "url": "http://localhost:8080/images/sandslash.png"
     },
     {
       "id": "29",
       "name": "nidoran-f",
       "types": ["poison"],
-      "url": "public/images/nidoran-f.png"
+      "url": "http://localhost:8080/images/nidoran-f.png"
     },
     {
       "id": "30",
       "name": "nidorina",
       "types": ["poison"],
-      "url": "public/images/nidorina.png"
+      "url": "http://localhost:8080/images/nidorina.png"
     },
     {
       "id": "31",
       "name": "nidoqueen",
       "types": ["poison", "ground"],
-      "url": "public/images/nidoqueen.png"
+      "url": "http://localhost:8080/images/nidoqueen.png"
     },
     {
       "id": "32",
       "name": "nidoran-m",
       "types": ["poison"],
-      "url": "public/images/nidoran-m.png"
+      "url": "http://localhost:8080/images/nidoran-m.png"
     },
     {
       "id": "33",
       "name": "nidorino",
       "types": ["poison"],
-      "url": "public/images/nidorino.png"
+      "url": "http://localhost:8080/images/nidorino.png"
     },
     {
       "id": "34",
       "name": "nidoking",
       "types": ["poison", "ground"],
-      "url": "public/images/nidoking.png"
+      "url": "http://localhost:8080/images/nidoking.png"
     },
     {
       "id": "35",
       "name": "clefairy",
       "types": ["fairy"],
-      "url": "public/images/clefairy.png"
+      "url": "http://localhost:8080/images/clefairy.png"
     },
     {
       "id": "36",
       "name": "clefable",
       "types": ["fairy"],
-      "url": "public/images/clefable.png"
+      "url": "http://localhost:8080/images/clefable.png"
     },
     {
       "id": "37",
       "name": "vulpix",
       "types": ["fire"],
-      "url": "public/images/vulpix.png"
+      "url": "http://localhost:8080/images/vulpix.png"
     },
     {
       "id": "38",
       "name": "ninetales",
       "types": ["fire"],
-      "url": "public/images/ninetales.png"
+      "url": "http://localhost:8080/images/ninetales.png"
     },
     {
       "id": "39",
       "name": "jigglypuff",
       "types": ["normal", "fairy"],
-      "url": "public/images/jigglypuff.png"
+      "url": "http://localhost:8080/images/jigglypuff.png"
     },
     {
       "id": "40",
       "name": "wigglytuff",
       "types": ["normal", "fairy"],
-      "url": "public/images/wigglytuff.png"
+      "url": "http://localhost:8080/images/wigglytuff.png"
     },
     {
       "id": "41",
       "name": "zubat",
       "types": ["poison", "flying"],
-      "url": "public/images/zubat.png"
+      "url": "http://localhost:8080/images/zubat.png"
     },
     {
       "id": "42",
       "name": "golbat",
       "types": ["poison", "flying"],
-      "url": "public/images/golbat.png"
+      "url": "http://localhost:8080/images/golbat.png"
     },
     {
       "id": "43",
       "name": "oddish",
       "types": ["grass", "poison"],
-      "url": "public/images/oddish.png"
+      "url": "http://localhost:8080/images/oddish.png"
     },
     {
       "id": "44",
       "name": "gloom",
       "types": ["grass", "poison"],
-      "url": "public/images/gloom.png"
+      "url": "http://localhost:8080/images/gloom.png"
     },
     {
       "id": "45",
       "name": "vileplume",
       "types": ["grass", "poison"],
-      "url": "public/images/vileplume.png"
+      "url": "http://localhost:8080/images/vileplume.png"
     },
     {
       "id": "46",
       "name": "paras",
       "types": ["bug", "grass"],
-      "url": "public/images/paras.png"
+      "url": "http://localhost:8080/images/paras.png"
     },
     {
       "id": "47",
       "name": "parasect",
       "types": ["bug", "grass"],
-      "url": "public/images/parasect.png"
+      "url": "http://localhost:8080/images/parasect.png"
     },
     {
       "id": "48",
       "name": "venonat",
       "types": ["bug", "poison"],
-      "url": "public/images/venonat.png"
+      "url": "http://localhost:8080/images/venonat.png"
     },
     {
       "id": "49",
       "name": "venomoth",
       "types": ["bug", "poison"],
-      "url": "public/images/venomoth.png"
+      "url": "http://localhost:8080/images/venomoth.png"
     },
     {
       "id": "50",
       "name": "diglett",
       "types": ["ground"],
-      "url": "public/images/diglett.png"
+      "url": "http://localhost:8080/images/diglett.png"
     },
     {
       "id": "51",
       "name": "dugtrio",
       "types": ["ground"],
-      "url": "public/images/dugtrio.png"
+      "url": "http://localhost:8080/images/dugtrio.png"
     },
     {
       "id": "52",
       "name": "meowth",
       "types": ["normal"],
-      "url": "public/images/meowth.png"
+      "url": "http://localhost:8080/images/meowth.png"
     },
     {
       "id": "53",
       "name": "persian",
       "types": ["normal"],
-      "url": "public/images/persian.png"
+      "url": "http://localhost:8080/images/persian.png"
     },
     {
       "id": "54",
       "name": "psyduck",
       "types": ["water"],
-      "url": "public/images/psyduck.png"
+      "url": "http://localhost:8080/images/psyduck.png"
     },
     {
       "id": "55",
       "name": "golduck",
       "types": ["water"],
-      "url": "public/images/golduck.png"
+      "url": "http://localhost:8080/images/golduck.png"
     },
     {
       "id": "56",
       "name": "mankey",
       "types": ["fighting"],
-      "url": "public/images/mankey.png"
+      "url": "http://localhost:8080/images/mankey.png"
     },
     {
       "id": "57",
       "name": "primeape",
       "types": ["fighting"],
-      "url": "public/images/primeape.png"
+      "url": "http://localhost:8080/images/primeape.png"
     },
     {
       "id": "58",
       "name": "growlithe",
       "types": ["fire"],
-      "url": "public/images/growlithe.png"
+      "url": "http://localhost:8080/images/growlithe.png"
     },
     {
       "id": "59",
       "name": "arcanine",
       "types": ["fire"],
-      "url": "public/images/arcanine.png"
+      "url": "http://localhost:8080/images/arcanine.png"
     },
     {
       "id": "60",
       "name": "poliwag",
       "types": ["water"],
-      "url": "public/images/poliwag.png"
+      "url": "http://localhost:8080/images/poliwag.png"
     },
     {
       "id": "61",
       "name": "poliwhirl",
       "types": ["water"],
-      "url": "public/images/poliwhirl.png"
+      "url": "http://localhost:8080/images/poliwhirl.png"
     },
     {
       "id": "62",
       "name": "poliwrath",
       "types": ["water", "fighting"],
-      "url": "public/images/poliwrath.png"
+      "url": "http://localhost:8080/images/poliwrath.png"
     },
     {
       "id": "63",
       "name": "abra",
       "types": ["psychic"],
-      "url": "public/images/abra.png"
+      "url": "http://localhost:8080/images/abra.png"
     },
     {
       "id": "64",
       "name": "kadabra",
       "types": ["psychic"],
-      "url": "public/images/kadabra.png"
+      "url": "http://localhost:8080/images/kadabra.png"
     },
     {
       "id": "65",
       "name": "alakazam",
       "types": ["psychic"],
-      "url": "public/images/alakazam.png"
+      "url": "http://localhost:8080/images/alakazam.png"
     },
     {
       "id": "66",
       "name": "machop",
       "types": ["fighting"],
-      "url": "public/images/machop.png"
+      "url": "http://localhost:8080/images/machop.png"
     },
     {
       "id": "67",
       "name": "machoke",
       "types": ["fighting"],
-      "url": "public/images/machoke.png"
+      "url": "http://localhost:8080/images/machoke.png"
     },
     {
       "id": "68",
       "name": "machamp",
       "types": ["fighting"],
-      "url": "public/images/machamp.png"
+      "url": "http://localhost:8080/images/machamp.png"
     },
     {
       "id": "69",
       "name": "bellsprout",
       "types": ["grass", "poison"],
-      "url": "public/images/bellsprout.png"
+      "url": "http://localhost:8080/images/bellsprout.png"
     },
     {
       "id": "70",
       "name": "weepinbell",
       "types": ["grass", "poison"],
-      "url": "public/images/weepinbell.png"
+      "url": "http://localhost:8080/images/weepinbell.png"
     },
     {
       "id": "71",
       "name": "victreebel",
       "types": ["grass", "poison"],
-      "url": "public/images/victreebel.png"
+      "url": "http://localhost:8080/images/victreebel.png"
     },
     {
       "id": "72",
       "name": "tentacool",
       "types": ["water", "poison"],
-      "url": "public/images/tentacool.png"
+      "url": "http://localhost:8080/images/tentacool.png"
     },
     {
       "id": "73",
       "name": "tentacruel",
       "types": ["water", "poison"],
-      "url": "public/images/tentacruel.png"
+      "url": "http://localhost:8080/images/tentacruel.png"
     },
     {
       "id": "74",
       "name": "geodude",
       "types": ["rock", "ground"],
-      "url": "public/images/geodude.png"
+      "url": "http://localhost:8080/images/geodude.png"
     },
     {
       "id": "75",
       "name": "graveler",
       "types": ["rock", "ground"],
-      "url": "public/images/graveler.png"
+      "url": "http://localhost:8080/images/graveler.png"
     },
     {
       "id": "76",
       "name": "golem",
       "types": ["rock", "ground"],
-      "url": "public/images/golem.png"
+      "url": "http://localhost:8080/images/golem.png"
     },
     {
       "id": "77",
       "name": "ponyta",
       "types": ["fire"],
-      "url": "public/images/ponyta.png"
+      "url": "http://localhost:8080/images/ponyta.png"
     },
     {
       "id": "78",
       "name": "rapidash",
       "types": ["fire"],
-      "url": "public/images/rapidash.png"
+      "url": "http://localhost:8080/images/rapidash.png"
     },
     {
       "id": "79",
       "name": "slowpoke",
       "types": ["water", "psychic"],
-      "url": "public/images/slowpoke.png"
+      "url": "http://localhost:8080/images/slowpoke.png"
     },
     {
       "id": "80",
       "name": "slowbro",
       "types": ["water", "psychic"],
-      "url": "public/images/slowbro.png"
+      "url": "http://localhost:8080/images/slowbro.png"
     },
     {
       "id": "81",
       "name": "magnemite",
       "types": ["electric", "steel"],
-      "url": "public/images/magnemite.png"
+      "url": "http://localhost:8080/images/magnemite.png"
     },
     {
       "id": "82",
       "name": "magneton",
       "types": ["electric", "steel"],
-      "url": "public/images/magneton.png"
+      "url": "http://localhost:8080/images/magneton.png"
     },
     {
       "id": "83",
       "name": "farfetchd",
       "types": ["normal", "flying"],
-      "url": "public/images/farfetchd.png"
+      "url": "http://localhost:8080/images/farfetchd.png"
     },
     {
       "id": "84",
       "name": "doduo",
       "types": ["normal", "flying"],
-      "url": "public/images/doduo.png"
+      "url": "http://localhost:8080/images/doduo.png"
     },
     {
       "id": "85",
       "name": "dodrio",
       "types": ["normal", "flying"],
-      "url": "public/images/dodrio.png"
+      "url": "http://localhost:8080/images/dodrio.png"
     },
     {
       "id": "86",
       "name": "seel",
       "types": ["water"],
-      "url": "public/images/seel.png"
+      "url": "http://localhost:8080/images/seel.png"
     },
     {
       "id": "87",
       "name": "dewgong",
       "types": ["water", "ice"],
-      "url": "public/images/dewgong.png"
+      "url": "http://localhost:8080/images/dewgong.png"
     },
     {
       "id": "88",
       "name": "grimer",
       "types": ["poison"],
-      "url": "public/images/grimer.png"
+      "url": "http://localhost:8080/images/grimer.png"
     },
     {
       "id": "89",
       "name": "muk",
       "types": ["poison"],
-      "url": "public/images/muk.png"
+      "url": "http://localhost:8080/images/muk.png"
     },
     {
       "id": "90",
       "name": "shellder",
       "types": ["water"],
-      "url": "public/images/shellder.png"
+      "url": "http://localhost:8080/images/shellder.png"
     },
     {
       "id": "91",
       "name": "cloyster",
       "types": ["water", "ice"],
-      "url": "public/images/cloyster.png"
+      "url": "http://localhost:8080/images/cloyster.png"
     },
     {
       "id": "92",
       "name": "gastly",
       "types": ["ghost", "poison"],
-      "url": "public/images/gastly.png"
+      "url": "http://localhost:8080/images/gastly.png"
     },
     {
       "id": "93",
       "name": "haunter",
       "types": ["ghost", "poison"],
-      "url": "public/images/haunter.png"
+      "url": "http://localhost:8080/images/haunter.png"
     },
     {
       "id": "94",
       "name": "gengar",
       "types": ["ghost", "poison"],
-      "url": "public/images/gengar.png"
+      "url": "http://localhost:8080/images/gengar.png"
     },
     {
       "id": "95",
       "name": "onix",
       "types": ["rock", "ground"],
-      "url": "public/images/onix.png"
+      "url": "http://localhost:8080/images/onix.png"
     },
     {
       "id": "96",
       "name": "drowzee",
       "types": ["psychic"],
-      "url": "public/images/drowzee.png"
+      "url": "http://localhost:8080/images/drowzee.png"
     },
     {
       "id": "97",
       "name": "hypno",
       "types": ["psychic"],
-      "url": "public/images/hypno.png"
+      "url": "http://localhost:8080/images/hypno.png"
     },
     {
       "id": "98",
       "name": "krabby",
       "types": ["water"],
-      "url": "public/images/krabby.png"
+      "url": "http://localhost:8080/images/krabby.png"
     },
     {
       "id": "99",
       "name": "kingler",
       "types": ["water"],
-      "url": "public/images/kingler.png"
+      "url": "http://localhost:8080/images/kingler.png"
     },
     {
       "id": "100",
       "name": "voltorb",
       "types": ["electric"],
-      "url": "public/images/voltorb.png"
+      "url": "http://localhost:8080/images/voltorb.png"
     },
     {
       "id": "101",
       "name": "electrode",
       "types": ["electric"],
-      "url": "public/images/electrode.png"
+      "url": "http://localhost:8080/images/electrode.png"
     },
     {
       "id": "102",
       "name": "exeggcute",
       "types": ["grass", "psychic"],
-      "url": "public/images/exeggcute.png"
+      "url": "http://localhost:8080/images/exeggcute.png"
     },
     {
       "id": "103",
       "name": "exeggutor",
       "types": ["grass", "psychic"],
-      "url": "public/images/exeggutor.png"
+      "url": "http://localhost:8080/images/exeggutor.png"
     },
     {
       "id": "104",
       "name": "cubone",
       "types": ["ground"],
-      "url": "public/images/cubone.png"
+      "url": "http://localhost:8080/images/cubone.png"
     },
     {
       "id": "105",
       "name": "marowak",
       "types": ["ground"],
-      "url": "public/images/marowak.png"
+      "url": "http://localhost:8080/images/marowak.png"
     },
     {
       "id": "106",
       "name": "hitmonlee",
       "types": ["fighting"],
-      "url": "public/images/hitmonlee.png"
+      "url": "http://localhost:8080/images/hitmonlee.png"
     },
     {
       "id": "107",
       "name": "hitmonchan",
       "types": ["fighting"],
-      "url": "public/images/hitmonchan.png"
+      "url": "http://localhost:8080/images/hitmonchan.png"
     },
     {
       "id": "108",
       "name": "lickitung",
       "types": ["normal"],
-      "url": "public/images/lickitung.png"
+      "url": "http://localhost:8080/images/lickitung.png"
     },
     {
       "id": "109",
       "name": "koffing",
       "types": ["poison"],
-      "url": "public/images/koffing.png"
+      "url": "http://localhost:8080/images/koffing.png"
     },
     {
       "id": "110",
       "name": "weezing",
       "types": ["poison"],
-      "url": "public/images/weezing.png"
+      "url": "http://localhost:8080/images/weezing.png"
     },
     {
       "id": "111",
       "name": "rhyhorn",
       "types": ["ground", "rock"],
-      "url": "public/images/rhyhorn.png"
+      "url": "http://localhost:8080/images/rhyhorn.png"
     },
     {
       "id": "112",
       "name": "rhydon",
       "types": ["ground", "rock"],
-      "url": "public/images/rhydon.png"
+      "url": "http://localhost:8080/images/rhydon.png"
     },
     {
       "id": "113",
       "name": "chansey",
       "types": ["normal"],
-      "url": "public/images/chansey.png"
+      "url": "http://localhost:8080/images/chansey.png"
     },
     {
       "id": "114",
       "name": "tangela",
       "types": ["grass"],
-      "url": "public/images/tangela.png"
+      "url": "http://localhost:8080/images/tangela.png"
     },
     {
       "id": "115",
       "name": "kangaskhan",
       "types": ["normal"],
-      "url": "public/images/kangaskhan.png"
+      "url": "http://localhost:8080/images/kangaskhan.png"
     },
     {
       "id": "116",
       "name": "horsea",
       "types": ["water"],
-      "url": "public/images/horsea.png"
+      "url": "http://localhost:8080/images/horsea.png"
     },
     {
       "id": "117",
       "name": "seadra",
       "types": ["water"],
-      "url": "public/images/seadra.png"
+      "url": "http://localhost:8080/images/seadra.png"
     },
     {
       "id": "118",
       "name": "goldeen",
       "types": ["water"],
-      "url": "public/images/goldeen.png"
+      "url": "http://localhost:8080/images/goldeen.png"
     },
     {
       "id": "119",
       "name": "seaking",
       "types": ["water"],
-      "url": "public/images/seaking.png"
+      "url": "http://localhost:8080/images/seaking.png"
     },
     {
       "id": "120",
       "name": "staryu",
       "types": ["water"],
-      "url": "public/images/staryu.png"
+      "url": "http://localhost:8080/images/staryu.png"
     },
     {
       "id": "121",
       "name": "starmie",
       "types": ["water", "psychic"],
-      "url": "public/images/starmie.png"
+      "url": "http://localhost:8080/images/starmie.png"
     },
     {
       "id": "122",
       "name": "mr-mime",
       "types": ["psychic", "fairy"],
-      "url": "public/images/mr-mime.png"
+      "url": "http://localhost:8080/images/mr-mime.png"
     },
     {
       "id": "123",
       "name": "scyther",
       "types": ["bug", "flying"],
-      "url": "public/images/scyther.png"
+      "url": "http://localhost:8080/images/scyther.png"
     },
     {
       "id": "124",
       "name": "jynx",
       "types": ["ice", "psychic"],
-      "url": "public/images/jynx.png"
+      "url": "http://localhost:8080/images/jynx.png"
     },
     {
       "id": "125",
       "name": "electabuzz",
       "types": ["electric"],
-      "url": "public/images/electabuzz.png"
+      "url": "http://localhost:8080/images/electabuzz.png"
     },
     {
       "id": "126",
       "name": "magmar",
       "types": ["fire"],
-      "url": "public/images/magmar.png"
+      "url": "http://localhost:8080/images/magmar.png"
     },
     {
       "id": "127",
       "name": "pinsir",
       "types": ["bug"],
-      "url": "public/images/pinsir.png"
+      "url": "http://localhost:8080/images/pinsir.png"
     },
     {
       "id": "128",
       "name": "tauros",
       "types": ["normal"],
-      "url": "public/images/tauros.png"
+      "url": "http://localhost:8080/images/tauros.png"
     },
     {
       "id": "129",
       "name": "magikarp",
       "types": ["water"],
-      "url": "public/images/magikarp.png"
+      "url": "http://localhost:8080/images/magikarp.png"
     },
     {
       "id": "130",
       "name": "gyarados",
       "types": ["water", "flying"],
-      "url": "public/images/gyarados.png"
+      "url": "http://localhost:8080/images/gyarados.png"
     },
     {
       "id": "131",
       "name": "lapras",
       "types": ["water", "ice"],
-      "url": "public/images/lapras.png"
+      "url": "http://localhost:8080/images/lapras.png"
     },
     {
       "id": "132",
       "name": "ditto",
       "types": ["normal"],
-      "url": "public/images/ditto.png"
+      "url": "http://localhost:8080/images/ditto.png"
     },
     {
       "id": "133",
       "name": "eevee",
       "types": ["normal"],
-      "url": "public/images/eevee.png"
+      "url": "http://localhost:8080/images/eevee.png"
     },
     {
       "id": "134",
       "name": "vaporeon",
       "types": ["water"],
-      "url": "public/images/vaporeon.png"
+      "url": "http://localhost:8080/images/vaporeon.png"
     },
     {
       "id": "135",
       "name": "jolteon",
       "types": ["electric"],
-      "url": "public/images/jolteon.png"
+      "url": "http://localhost:8080/images/jolteon.png"
     },
     {
       "id": "136",
       "name": "flareon",
       "types": ["fire"],
-      "url": "public/images/flareon.png"
+      "url": "http://localhost:8080/images/flareon.png"
     },
     {
       "id": "137",
       "name": "porygon",
       "types": ["normal"],
-      "url": "public/images/porygon.png"
+      "url": "http://localhost:8080/images/porygon.png"
     },
     {
       "id": "138",
       "name": "omanyte",
       "types": ["rock", "water"],
-      "url": "public/images/omanyte.png"
+      "url": "http://localhost:8080/images/omanyte.png"
     },
     {
       "id": "139",
       "name": "omastar",
       "types": ["rock", "water"],
-      "url": "public/images/omastar.png"
+      "url": "http://localhost:8080/images/omastar.png"
     },
     {
       "id": "140",
       "name": "kabuto",
       "types": ["rock", "water"],
-      "url": "public/images/kabuto.png"
+      "url": "http://localhost:8080/images/kabuto.png"
     },
     {
       "id": "141",
       "name": "kabutops",
       "types": ["rock", "water"],
-      "url": "public/images/kabutops.png"
+      "url": "http://localhost:8080/images/kabutops.png"
     },
     {
       "id": "142",
       "name": "aerodactyl",
       "types": ["rock", "flying"],
-      "url": "public/images/aerodactyl.png"
+      "url": "http://localhost:8080/images/aerodactyl.png"
     },
     {
       "id": "143",
       "name": "snorlax",
       "types": ["normal"],
-      "url": "public/images/snorlax.png"
+      "url": "http://localhost:8080/images/snorlax.png"
     },
     {
       "id": "144",
       "name": "articuno",
       "types": ["ice", "flying"],
-      "url": "public/images/articuno.png"
+      "url": "http://localhost:8080/images/articuno.png"
     },
     {
       "id": "145",
       "name": "zapdos",
       "types": ["electric", "flying"],
-      "url": "public/images/zapdos.png"
+      "url": "http://localhost:8080/images/zapdos.png"
     },
     {
       "id": "146",
       "name": "moltres",
       "types": ["fire", "flying"],
-      "url": "public/images/moltres.png"
+      "url": "http://localhost:8080/images/moltres.png"
     },
     {
       "id": "147",
       "name": "dratini",
       "types": ["dragon"],
-      "url": "public/images/dratini.png"
+      "url": "http://localhost:8080/images/dratini.png"
     },
     {
       "id": "148",
       "name": "dragonair",
       "types": ["dragon"],
-      "url": "public/images/dragonair.png"
+      "url": "http://localhost:8080/images/dragonair.png"
     },
     {
       "id": "149",
       "name": "dragonite",
       "types": ["dragon", "flying"],
-      "url": "public/images/dragonite.png"
+      "url": "http://localhost:8080/images/dragonite.png"
     },
     {
       "id": "150",
       "name": "mewtwo",
       "types": ["psychic"],
-      "url": "public/images/mewtwo.png"
+      "url": "http://localhost:8080/images/mewtwo.png"
     },
     {
       "id": "151",
       "name": "mew",
       "types": ["psychic"],
-      "url": "public/images/mew.png"
+      "url": "http://localhost:8080/images/mew.png"
     },
     {
       "id": "152",
       "name": "chikorita",
       "types": ["grass"],
-      "url": "public/images/chikorita.png"
+      "url": "http://localhost:8080/images/chikorita.png"
     },
     {
       "id": "153",
       "name": "bayleef",
       "types": ["grass"],
-      "url": "public/images/bayleef.png"
+      "url": "http://localhost:8080/images/bayleef.png"
     },
     {
       "id": "154",
       "name": "meganium",
       "types": ["grass"],
-      "url": "public/images/meganium.png"
+      "url": "http://localhost:8080/images/meganium.png"
     },
     {
       "id": "155",
       "name": "cyndaquil",
       "types": ["fire"],
-      "url": "public/images/cyndaquil.png"
+      "url": "http://localhost:8080/images/cyndaquil.png"
     },
     {
       "id": "156",
       "name": "quilava",
       "types": ["fire"],
-      "url": "public/images/quilava.png"
+      "url": "http://localhost:8080/images/quilava.png"
     },
     {
       "id": "157",
       "name": "typhlosion",
       "types": ["fire"],
-      "url": "public/images/typhlosion.png"
+      "url": "http://localhost:8080/images/typhlosion.png"
     },
     {
       "id": "158",
       "name": "totodile",
       "types": ["water"],
-      "url": "public/images/totodile.png"
+      "url": "http://localhost:8080/images/totodile.png"
     },
     {
       "id": "159",
       "name": "croconaw",
       "types": ["water"],
-      "url": "public/images/croconaw.png"
+      "url": "http://localhost:8080/images/croconaw.png"
     },
     {
       "id": "160",
       "name": "feraligatr",
       "types": ["water"],
-      "url": "public/images/feraligatr.png"
+      "url": "http://localhost:8080/images/feraligatr.png"
     },
     {
       "id": "161",
       "name": "sentret",
       "types": ["normal"],
-      "url": "public/images/sentret.png"
+      "url": "http://localhost:8080/images/sentret.png"
     },
     {
       "id": "162",
       "name": "furret",
       "types": ["normal"],
-      "url": "public/images/furret.png"
+      "url": "http://localhost:8080/images/furret.png"
     },
     {
       "id": "163",
       "name": "hoothoot",
       "types": ["normal", "flying"],
-      "url": "public/images/hoothoot.png"
+      "url": "http://localhost:8080/images/hoothoot.png"
     },
     {
       "id": "164",
       "name": "noctowl",
       "types": ["normal", "flying"],
-      "url": "public/images/noctowl.png"
+      "url": "http://localhost:8080/images/noctowl.png"
     },
     {
       "id": "165",
       "name": "ledyba",
       "types": ["bug", "flying"],
-      "url": "public/images/ledyba.png"
+      "url": "http://localhost:8080/images/ledyba.png"
     },
     {
       "id": "166",
       "name": "ledian",
       "types": ["bug", "flying"],
-      "url": "public/images/ledian.png"
+      "url": "http://localhost:8080/images/ledian.png"
     },
     {
       "id": "167",
       "name": "spinarak",
       "types": ["bug", "poison"],
-      "url": "public/images/spinarak.png"
+      "url": "http://localhost:8080/images/spinarak.png"
     },
     {
       "id": "168",
       "name": "ariados",
       "types": ["bug", "poison"],
-      "url": "public/images/ariados.png"
+      "url": "http://localhost:8080/images/ariados.png"
     },
     {
       "id": "169",
       "name": "crobat",
       "types": ["poison", "flying"],
-      "url": "public/images/crobat.png"
+      "url": "http://localhost:8080/images/crobat.png"
     },
     {
       "id": "170",
       "name": "chinchou",
       "types": ["water", "electric"],
-      "url": "public/images/chinchou.png"
+      "url": "http://localhost:8080/images/chinchou.png"
     },
     {
       "id": "171",
       "name": "lanturn",
       "types": ["water", "electric"],
-      "url": "public/images/lanturn.png"
+      "url": "http://localhost:8080/images/lanturn.png"
     },
     {
       "id": "172",
       "name": "pichu",
       "types": ["electric"],
-      "url": "public/images/pichu.png"
+      "url": "http://localhost:8080/images/pichu.png"
     },
     {
       "id": "173",
       "name": "cleffa",
       "types": ["fairy"],
-      "url": "public/images/cleffa.png"
+      "url": "http://localhost:8080/images/cleffa.png"
     },
     {
       "id": "174",
       "name": "igglybuff",
       "types": ["normal", "fairy"],
-      "url": "public/images/igglybuff.png"
+      "url": "http://localhost:8080/images/igglybuff.png"
     },
     {
       "id": "175",
       "name": "togepi",
       "types": ["fairy"],
-      "url": "public/images/togepi.png"
+      "url": "http://localhost:8080/images/togepi.png"
     },
     {
       "id": "176",
       "name": "togetic",
       "types": ["fairy", "flying"],
-      "url": "public/images/togetic.png"
+      "url": "http://localhost:8080/images/togetic.png"
     },
     {
       "id": "177",
       "name": "natu",
       "types": ["psychic", "flying"],
-      "url": "public/images/natu.png"
+      "url": "http://localhost:8080/images/natu.png"
     },
     {
       "id": "178",
       "name": "xatu",
       "types": ["psychic", "flying"],
-      "url": "public/images/xatu.png"
+      "url": "http://localhost:8080/images/xatu.png"
     },
     {
       "id": "179",
       "name": "mareep",
       "types": ["electric"],
-      "url": "public/images/mareep.png"
+      "url": "http://localhost:8080/images/mareep.png"
     },
     {
       "id": "180",
       "name": "flaaffy",
       "types": ["electric"],
-      "url": "public/images/flaaffy.png"
+      "url": "http://localhost:8080/images/flaaffy.png"
     },
     {
       "id": "181",
       "name": "ampharos",
       "types": ["electric"],
-      "url": "public/images/ampharos.png"
+      "url": "http://localhost:8080/images/ampharos.png"
     },
     {
       "id": "182",
       "name": "bellossom",
       "types": ["grass"],
-      "url": "public/images/bellossom.png"
+      "url": "http://localhost:8080/images/bellossom.png"
     },
     {
       "id": "183",
       "name": "marill",
       "types": ["water", "fairy"],
-      "url": "public/images/marill.png"
+      "url": "http://localhost:8080/images/marill.png"
     },
     {
       "id": "184",
       "name": "azumarill",
       "types": ["water", "fairy"],
-      "url": "public/images/azumarill.png"
+      "url": "http://localhost:8080/images/azumarill.png"
     },
     {
       "id": "185",
       "name": "sudowoodo",
       "types": ["rock"],
-      "url": "public/images/sudowoodo.png"
+      "url": "http://localhost:8080/images/sudowoodo.png"
     },
     {
       "id": "186",
       "name": "politoed",
       "types": ["water"],
-      "url": "public/images/politoed.png"
+      "url": "http://localhost:8080/images/politoed.png"
     },
     {
       "id": "187",
       "name": "hoppip",
       "types": ["grass", "flying"],
-      "url": "public/images/hoppip.png"
+      "url": "http://localhost:8080/images/hoppip.png"
     },
     {
       "id": "188",
       "name": "skiploom",
       "types": ["grass", "flying"],
-      "url": "public/images/skiploom.png"
+      "url": "http://localhost:8080/images/skiploom.png"
     },
     {
       "id": "189",
       "name": "jumpluff",
       "types": ["grass", "flying"],
-      "url": "public/images/jumpluff.png"
+      "url": "http://localhost:8080/images/jumpluff.png"
     },
     {
       "id": "190",
       "name": "aipom",
       "types": ["normal"],
-      "url": "public/images/aipom.png"
+      "url": "http://localhost:8080/images/aipom.png"
     },
     {
       "id": "191",
       "name": "sunkern",
       "types": ["grass"],
-      "url": "public/images/sunkern.png"
+      "url": "http://localhost:8080/images/sunkern.png"
     },
     {
       "id": "192",
       "name": "sunflora",
       "types": ["grass"],
-      "url": "public/images/sunflora.png"
+      "url": "http://localhost:8080/images/sunflora.png"
     },
     {
       "id": "193",
       "name": "yanma",
       "types": ["bug", "flying"],
-      "url": "public/images/yanma.png"
+      "url": "http://localhost:8080/images/yanma.png"
     },
     {
       "id": "194",
       "name": "wooper",
       "types": ["water", "ground"],
-      "url": "public/images/wooper.png"
+      "url": "http://localhost:8080/images/wooper.png"
     },
     {
       "id": "195",
       "name": "quagsire",
       "types": ["water", "ground"],
-      "url": "public/images/quagsire.png"
+      "url": "http://localhost:8080/images/quagsire.png"
     },
     {
       "id": "196",
       "name": "espeon",
       "types": ["psychic"],
-      "url": "public/images/espeon.png"
+      "url": "http://localhost:8080/images/espeon.png"
     },
     {
       "id": "197",
       "name": "umbreon",
       "types": ["dark"],
-      "url": "public/images/umbreon.png"
+      "url": "http://localhost:8080/images/umbreon.png"
     },
     {
       "id": "198",
       "name": "murkrow",
       "types": ["dark", "flying"],
-      "url": "public/images/murkrow.png"
+      "url": "http://localhost:8080/images/murkrow.png"
     },
     {
       "id": "199",
       "name": "slowking",
       "types": ["water", "psychic"],
-      "url": "public/images/slowking.png"
+      "url": "http://localhost:8080/images/slowking.png"
     },
     {
       "id": "200",
       "name": "misdreavus",
       "types": ["ghost"],
-      "url": "public/images/misdreavus.png"
+      "url": "http://localhost:8080/images/misdreavus.png"
     },
     {
       "id": "201",
       "name": "unown",
       "types": ["psychic"],
-      "url": "public/images/unown.png"
+      "url": "http://localhost:8080/images/unown.png"
     },
     {
       "id": "202",
       "name": "wobbuffet",
       "types": ["psychic"],
-      "url": "public/images/wobbuffet.png"
+      "url": "http://localhost:8080/images/wobbuffet.png"
     },
     {
       "id": "203",
       "name": "girafarig",
       "types": ["normal", "psychic"],
-      "url": "public/images/girafarig.png"
+      "url": "http://localhost:8080/images/girafarig.png"
     },
     {
       "id": "204",
       "name": "pineco",
       "types": ["bug"],
-      "url": "public/images/pineco.png"
+      "url": "http://localhost:8080/images/pineco.png"
     },
     {
       "id": "205",
       "name": "forretress",
       "types": ["bug", "steel"],
-      "url": "public/images/forretress.png"
+      "url": "http://localhost:8080/images/forretress.png"
     },
     {
       "id": "206",
       "name": "dunsparce",
       "types": ["normal"],
-      "url": "public/images/dunsparce.png"
+      "url": "http://localhost:8080/images/dunsparce.png"
     },
     {
       "id": "207",
       "name": "gligar",
       "types": ["ground", "flying"],
-      "url": "public/images/gligar.png"
+      "url": "http://localhost:8080/images/gligar.png"
     },
     {
       "id": "208",
       "name": "steelix",
       "types": ["steel", "ground"],
-      "url": "public/images/steelix.png"
+      "url": "http://localhost:8080/images/steelix.png"
     },
     {
       "id": "209",
       "name": "snubbull",
       "types": ["fairy"],
-      "url": "public/images/snubbull.png"
+      "url": "http://localhost:8080/images/snubbull.png"
     },
     {
       "id": "210",
       "name": "granbull",
       "types": ["fairy"],
-      "url": "public/images/granbull.png"
+      "url": "http://localhost:8080/images/granbull.png"
     },
     {
       "id": "211",
       "name": "qwilfish",
       "types": ["water", "poison"],
-      "url": "public/images/qwilfish.png"
+      "url": "http://localhost:8080/images/qwilfish.png"
     },
     {
       "id": "212",
       "name": "scizor",
       "types": ["bug", "steel"],
-      "url": "public/images/scizor.png"
+      "url": "http://localhost:8080/images/scizor.png"
     },
     {
       "id": "213",
       "name": "shuckle",
       "types": ["bug", "rock"],
-      "url": "public/images/shuckle.png"
+      "url": "http://localhost:8080/images/shuckle.png"
     },
     {
       "id": "214",
       "name": "heracross",
       "types": ["bug", "fighting"],
-      "url": "public/images/heracross.png"
+      "url": "http://localhost:8080/images/heracross.png"
     },
     {
       "id": "215",
       "name": "sneasel",
       "types": ["dark", "ice"],
-      "url": "public/images/sneasel.png"
+      "url": "http://localhost:8080/images/sneasel.png"
     },
     {
       "id": "216",
       "name": "teddiursa",
       "types": ["normal"],
-      "url": "public/images/teddiursa.png"
+      "url": "http://localhost:8080/images/teddiursa.png"
     },
     {
       "id": "217",
       "name": "ursaring",
       "types": ["normal"],
-      "url": "public/images/ursaring.png"
+      "url": "http://localhost:8080/images/ursaring.png"
     },
     {
       "id": "218",
       "name": "slugma",
       "types": ["fire"],
-      "url": "public/images/slugma.png"
+      "url": "http://localhost:8080/images/slugma.png"
     },
     {
       "id": "219",
       "name": "magcargo",
       "types": ["fire", "rock"],
-      "url": "public/images/magcargo.png"
+      "url": "http://localhost:8080/images/magcargo.png"
     },
     {
       "id": "220",
       "name": "swinub",
       "types": ["ice", "ground"],
-      "url": "public/images/swinub.png"
+      "url": "http://localhost:8080/images/swinub.png"
     },
     {
       "id": "221",
       "name": "piloswine",
       "types": ["ice", "ground"],
-      "url": "public/images/piloswine.png"
+      "url": "http://localhost:8080/images/piloswine.png"
     },
     {
       "id": "222",
       "name": "corsola",
       "types": ["water", "rock"],
-      "url": "public/images/corsola.png"
+      "url": "http://localhost:8080/images/corsola.png"
     },
     {
       "id": "223",
       "name": "remoraid",
       "types": ["water"],
-      "url": "public/images/remoraid.png"
+      "url": "http://localhost:8080/images/remoraid.png"
     },
     {
       "id": "224",
       "name": "octillery",
       "types": ["water"],
-      "url": "public/images/octillery.png"
+      "url": "http://localhost:8080/images/octillery.png"
     },
     {
       "id": "225",
       "name": "delibird",
       "types": ["ice", "flying"],
-      "url": "public/images/delibird.png"
+      "url": "http://localhost:8080/images/delibird.png"
     },
     {
       "id": "226",
       "name": "mantine",
       "types": ["water", "flying"],
-      "url": "public/images/mantine.png"
+      "url": "http://localhost:8080/images/mantine.png"
     },
     {
       "id": "227",
       "name": "skarmory",
       "types": ["steel", "flying"],
-      "url": "public/images/skarmory.png"
+      "url": "http://localhost:8080/images/skarmory.png"
     },
     {
       "id": "228",
       "name": "houndour",
       "types": ["dark", "fire"],
-      "url": "public/images/houndour.png"
+      "url": "http://localhost:8080/images/houndour.png"
     },
     {
       "id": "229",
       "name": "houndoom",
       "types": ["dark", "fire"],
-      "url": "public/images/houndoom.png"
+      "url": "http://localhost:8080/images/houndoom.png"
     },
     {
       "id": "230",
       "name": "kingdra",
       "types": ["water", "dragon"],
-      "url": "public/images/kingdra.png"
+      "url": "http://localhost:8080/images/kingdra.png"
     },
     {
       "id": "231",
       "name": "phanpy",
       "types": ["ground"],
-      "url": "public/images/phanpy.png"
+      "url": "http://localhost:8080/images/phanpy.png"
     },
     {
       "id": "232",
       "name": "donphan",
       "types": ["ground"],
-      "url": "public/images/donphan.png"
+      "url": "http://localhost:8080/images/donphan.png"
     },
     {
       "id": "233",
       "name": "porygon2",
       "types": ["normal"],
-      "url": "public/images/porygon2.png"
+      "url": "http://localhost:8080/images/porygon2.png"
     },
     {
       "id": "234",
       "name": "stantler",
       "types": ["normal"],
-      "url": "public/images/stantler.png"
+      "url": "http://localhost:8080/images/stantler.png"
     },
     {
       "id": "235",
       "name": "smeargle",
       "types": ["normal"],
-      "url": "public/images/smeargle.png"
+      "url": "http://localhost:8080/images/smeargle.png"
     },
     {
       "id": "236",
       "name": "tyrogue",
       "types": ["fighting"],
-      "url": "public/images/tyrogue.png"
+      "url": "http://localhost:8080/images/tyrogue.png"
     },
     {
       "id": "237",
       "name": "hitmontop",
       "types": ["fighting"],
-      "url": "public/images/hitmontop.png"
+      "url": "http://localhost:8080/images/hitmontop.png"
     },
     {
       "id": "238",
       "name": "smoochum",
       "types": ["ice", "psychic"],
-      "url": "public/images/smoochum.png"
+      "url": "http://localhost:8080/images/smoochum.png"
     },
     {
       "id": "239",
       "name": "elekid",
       "types": ["electric"],
-      "url": "public/images/elekid.png"
+      "url": "http://localhost:8080/images/elekid.png"
     },
     {
       "id": "240",
       "name": "magby",
       "types": ["fire"],
-      "url": "public/images/magby.png"
+      "url": "http://localhost:8080/images/magby.png"
     },
     {
       "id": "241",
       "name": "miltank",
       "types": ["normal"],
-      "url": "public/images/miltank.png"
+      "url": "http://localhost:8080/images/miltank.png"
     },
     {
       "id": "242",
       "name": "blissey",
       "types": ["normal"],
-      "url": "public/images/blissey.png"
+      "url": "http://localhost:8080/images/blissey.png"
     },
     {
       "id": "243",
       "name": "raikou",
       "types": ["electric"],
-      "url": "public/images/raikou.png"
+      "url": "http://localhost:8080/images/raikou.png"
     },
     {
       "id": "244",
       "name": "entei",
       "types": ["fire"],
-      "url": "public/images/entei.png"
+      "url": "http://localhost:8080/images/entei.png"
     },
     {
       "id": "245",
       "name": "suicune",
       "types": ["water"],
-      "url": "public/images/suicune.png"
+      "url": "http://localhost:8080/images/suicune.png"
     },
     {
       "id": "246",
       "name": "larvitar",
       "types": ["rock", "ground"],
-      "url": "public/images/larvitar.png"
+      "url": "http://localhost:8080/images/larvitar.png"
     },
     {
       "id": "247",
       "name": "pupitar",
       "types": ["rock", "ground"],
-      "url": "public/images/pupitar.png"
+      "url": "http://localhost:8080/images/pupitar.png"
     },
     {
       "id": "248",
       "name": "tyranitar",
       "types": ["rock", "dark"],
-      "url": "public/images/tyranitar.png"
+      "url": "http://localhost:8080/images/tyranitar.png"
     },
     {
       "id": "249",
       "name": "lugia",
       "types": ["psychic", "flying"],
-      "url": "public/images/lugia.png"
+      "url": "http://localhost:8080/images/lugia.png"
     },
     {
       "id": "250",
       "name": "ho-oh",
       "types": ["fire", "flying"],
-      "url": "public/images/ho-oh.png"
+      "url": "http://localhost:8080/images/ho-oh.png"
     },
     {
       "id": "251",
       "name": "celebi",
       "types": ["psychic", "grass"],
-      "url": "public/images/celebi.png"
+      "url": "http://localhost:8080/images/celebi.png"
     },
     {
       "id": "252",
       "name": "treecko",
       "types": ["grass"],
-      "url": "public/images/treecko.png"
+      "url": "http://localhost:8080/images/treecko.png"
     },
     {
       "id": "253",
       "name": "grovyle",
       "types": ["grass"],
-      "url": "public/images/grovyle.png"
+      "url": "http://localhost:8080/images/grovyle.png"
     },
     {
       "id": "254",
       "name": "sceptile",
       "types": ["grass"],
-      "url": "public/images/sceptile.png"
+      "url": "http://localhost:8080/images/sceptile.png"
     },
     {
       "id": "255",
       "name": "torchic",
       "types": ["fire"],
-      "url": "public/images/torchic.png"
+      "url": "http://localhost:8080/images/torchic.png"
     },
     {
       "id": "256",
       "name": "combusken",
       "types": ["fire", "fighting"],
-      "url": "public/images/combusken.png"
+      "url": "http://localhost:8080/images/combusken.png"
     },
     {
       "id": "257",
       "name": "blaziken",
       "types": ["fire", "fighting"],
-      "url": "public/images/blaziken.png"
+      "url": "http://localhost:8080/images/blaziken.png"
     },
     {
       "id": "258",
       "name": "mudkip",
       "types": ["water"],
-      "url": "public/images/mudkip.png"
+      "url": "http://localhost:8080/images/mudkip.png"
     },
     {
       "id": "259",
       "name": "marshtomp",
       "types": ["water", "ground"],
-      "url": "public/images/marshtomp.png"
+      "url": "http://localhost:8080/images/marshtomp.png"
     },
     {
       "id": "260",
       "name": "swampert",
       "types": ["water", "ground"],
-      "url": "public/images/swampert.png"
+      "url": "http://localhost:8080/images/swampert.png"
     },
     {
       "id": "261",
       "name": "poochyena",
       "types": ["dark"],
-      "url": "public/images/poochyena.png"
+      "url": "http://localhost:8080/images/poochyena.png"
     },
     {
       "id": "262",
       "name": "mightyena",
       "types": ["dark"],
-      "url": "public/images/mightyena.png"
+      "url": "http://localhost:8080/images/mightyena.png"
     },
     {
       "id": "263",
       "name": "zigzagoon",
       "types": ["normal"],
-      "url": "public/images/zigzagoon.png"
+      "url": "http://localhost:8080/images/zigzagoon.png"
     },
     {
       "id": "264",
       "name": "linoone",
       "types": ["normal"],
-      "url": "public/images/linoone.png"
+      "url": "http://localhost:8080/images/linoone.png"
     },
     {
       "id": "265",
       "name": "wurmple",
       "types": ["bug"],
-      "url": "public/images/wurmple.png"
+      "url": "http://localhost:8080/images/wurmple.png"
     },
     {
       "id": "266",
       "name": "silcoon",
       "types": ["bug"],
-      "url": "public/images/silcoon.png"
+      "url": "http://localhost:8080/images/silcoon.png"
     },
     {
       "id": "267",
       "name": "beautifly",
       "types": ["bug", "flying"],
-      "url": "public/images/beautifly.png"
+      "url": "http://localhost:8080/images/beautifly.png"
     },
     {
       "id": "268",
       "name": "cascoon",
       "types": ["bug"],
-      "url": "public/images/cascoon.png"
+      "url": "http://localhost:8080/images/cascoon.png"
     },
     {
       "id": "269",
       "name": "dustox",
       "types": ["bug", "poison"],
-      "url": "public/images/dustox.png"
+      "url": "http://localhost:8080/images/dustox.png"
     },
     {
       "id": "270",
       "name": "lotad",
       "types": ["water", "grass"],
-      "url": "public/images/lotad.png"
+      "url": "http://localhost:8080/images/lotad.png"
     },
     {
       "id": "271",
       "name": "lombre",
       "types": ["water", "grass"],
-      "url": "public/images/lombre.png"
+      "url": "http://localhost:8080/images/lombre.png"
     },
     {
       "id": "272",
       "name": "ludicolo",
       "types": ["water", "grass"],
-      "url": "public/images/ludicolo.png"
+      "url": "http://localhost:8080/images/ludicolo.png"
     },
     {
       "id": "273",
       "name": "seedot",
       "types": ["grass"],
-      "url": "public/images/seedot.png"
+      "url": "http://localhost:8080/images/seedot.png"
     },
     {
       "id": "274",
       "name": "nuzleaf",
       "types": ["grass", "dark"],
-      "url": "public/images/nuzleaf.png"
+      "url": "http://localhost:8080/images/nuzleaf.png"
     },
     {
       "id": "275",
       "name": "shiftry",
       "types": ["grass", "dark"],
-      "url": "public/images/shiftry.png"
+      "url": "http://localhost:8080/images/shiftry.png"
     },
     {
       "id": "276",
       "name": "taillow",
       "types": ["normal", "flying"],
-      "url": "public/images/taillow.png"
+      "url": "http://localhost:8080/images/taillow.png"
     },
     {
       "id": "277",
       "name": "swellow",
       "types": ["normal", "flying"],
-      "url": "public/images/swellow.png"
+      "url": "http://localhost:8080/images/swellow.png"
     },
     {
       "id": "278",
       "name": "wingull",
       "types": ["water", "flying"],
-      "url": "public/images/wingull.png"
+      "url": "http://localhost:8080/images/wingull.png"
     },
     {
       "id": "279",
       "name": "pelipper",
       "types": ["water", "flying"],
-      "url": "public/images/pelipper.png"
+      "url": "http://localhost:8080/images/pelipper.png"
     },
     {
       "id": "280",
       "name": "ralts",
       "types": ["psychic", "fairy"],
-      "url": "public/images/ralts.png"
+      "url": "http://localhost:8080/images/ralts.png"
     },
     {
       "id": "281",
       "name": "kirlia",
       "types": ["psychic", "fairy"],
-      "url": "public/images/kirlia.png"
+      "url": "http://localhost:8080/images/kirlia.png"
     },
     {
       "id": "282",
       "name": "gardevoir",
       "types": ["psychic", "fairy"],
-      "url": "public/images/gardevoir.png"
+      "url": "http://localhost:8080/images/gardevoir.png"
     },
     {
       "id": "283",
       "name": "surskit",
       "types": ["bug", "water"],
-      "url": "public/images/surskit.png"
+      "url": "http://localhost:8080/images/surskit.png"
     },
     {
       "id": "284",
       "name": "masquerain",
       "types": ["bug", "flying"],
-      "url": "public/images/masquerain.png"
+      "url": "http://localhost:8080/images/masquerain.png"
     },
     {
       "id": "285",
       "name": "shroomish",
       "types": ["grass"],
-      "url": "public/images/shroomish.png"
+      "url": "http://localhost:8080/images/shroomish.png"
     },
     {
       "id": "286",
       "name": "breloom",
       "types": ["grass", "fighting"],
-      "url": "public/images/breloom.png"
+      "url": "http://localhost:8080/images/breloom.png"
     },
     {
       "id": "287",
       "name": "slakoth",
       "types": ["normal"],
-      "url": "public/images/slakoth.png"
+      "url": "http://localhost:8080/images/slakoth.png"
     },
     {
       "id": "288",
       "name": "vigoroth",
       "types": ["normal"],
-      "url": "public/images/vigoroth.png"
+      "url": "http://localhost:8080/images/vigoroth.png"
     },
     {
       "id": "289",
       "name": "slaking",
       "types": ["normal"],
-      "url": "public/images/slaking.png"
+      "url": "http://localhost:8080/images/slaking.png"
     },
     {
       "id": "290",
       "name": "nincada",
       "types": ["bug", "ground"],
-      "url": "public/images/nincada.png"
+      "url": "http://localhost:8080/images/nincada.png"
     },
     {
       "id": "291",
       "name": "ninjask",
       "types": ["bug", "flying"],
-      "url": "public/images/ninjask.png"
+      "url": "http://localhost:8080/images/ninjask.png"
     },
     {
       "id": "292",
       "name": "shedinja",
       "types": ["bug", "ghost"],
-      "url": "public/images/shedinja.png"
+      "url": "http://localhost:8080/images/shedinja.png"
     },
     {
       "id": "293",
       "name": "whismur",
       "types": ["normal"],
-      "url": "public/images/whismur.png"
+      "url": "http://localhost:8080/images/whismur.png"
     },
     {
       "id": "294",
       "name": "loudred",
       "types": ["normal"],
-      "url": "public/images/loudred.png"
+      "url": "http://localhost:8080/images/loudred.png"
     },
     {
       "id": "295",
       "name": "exploud",
       "types": ["normal"],
-      "url": "public/images/exploud.png"
+      "url": "http://localhost:8080/images/exploud.png"
     },
     {
       "id": "296",
       "name": "makuhita",
       "types": ["fighting"],
-      "url": "public/images/makuhita.png"
+      "url": "http://localhost:8080/images/makuhita.png"
     },
     {
       "id": "297",
       "name": "hariyama",
       "types": ["fighting"],
-      "url": "public/images/hariyama.png"
+      "url": "http://localhost:8080/images/hariyama.png"
     },
     {
       "id": "298",
       "name": "azurill",
       "types": ["normal", "fairy"],
-      "url": "public/images/azurill.png"
+      "url": "http://localhost:8080/images/azurill.png"
     },
     {
       "id": "299",
       "name": "nosepass",
       "types": ["rock"],
-      "url": "public/images/nosepass.png"
+      "url": "http://localhost:8080/images/nosepass.png"
     },
     {
       "id": "300",
       "name": "skitty",
       "types": ["normal"],
-      "url": "public/images/skitty.png"
+      "url": "http://localhost:8080/images/skitty.png"
     },
     {
       "id": "301",
       "name": "delcatty",
       "types": ["normal"],
-      "url": "public/images/delcatty.png"
+      "url": "http://localhost:8080/images/delcatty.png"
     },
     {
       "id": "302",
       "name": "sableye",
       "types": ["dark", "ghost"],
-      "url": "public/images/sableye.png"
+      "url": "http://localhost:8080/images/sableye.png"
     },
     {
       "id": "303",
       "name": "mawile",
       "types": ["steel", "fairy"],
-      "url": "public/images/mawile.png"
+      "url": "http://localhost:8080/images/mawile.png"
     },
     {
       "id": "304",
       "name": "aron",
       "types": ["steel", "rock"],
-      "url": "public/images/aron.png"
+      "url": "http://localhost:8080/images/aron.png"
     },
     {
       "id": "305",
       "name": "lairon",
       "types": ["steel", "rock"],
-      "url": "public/images/lairon.png"
+      "url": "http://localhost:8080/images/lairon.png"
     },
     {
       "id": "306",
       "name": "aggron",
       "types": ["steel", "rock"],
-      "url": "public/images/aggron.png"
+      "url": "http://localhost:8080/images/aggron.png"
     },
     {
       "id": "307",
       "name": "meditite",
       "types": ["fighting", "psychic"],
-      "url": "public/images/meditite.png"
+      "url": "http://localhost:8080/images/meditite.png"
     },
     {
       "id": "308",
       "name": "medicham",
       "types": ["fighting", "psychic"],
-      "url": "public/images/medicham.png"
+      "url": "http://localhost:8080/images/medicham.png"
     },
     {
       "id": "309",
       "name": "electrike",
       "types": ["electric"],
-      "url": "public/images/electrike.png"
+      "url": "http://localhost:8080/images/electrike.png"
     },
     {
       "id": "310",
       "name": "manectric",
       "types": ["electric"],
-      "url": "public/images/manectric.png"
+      "url": "http://localhost:8080/images/manectric.png"
     },
     {
       "id": "311",
       "name": "plusle",
       "types": ["electric"],
-      "url": "public/images/plusle.png"
+      "url": "http://localhost:8080/images/plusle.png"
     },
     {
       "id": "312",
       "name": "minun",
       "types": ["electric"],
-      "url": "public/images/minun.png"
+      "url": "http://localhost:8080/images/minun.png"
     },
     {
       "id": "313",
       "name": "volbeat",
       "types": ["bug"],
-      "url": "public/images/volbeat.png"
+      "url": "http://localhost:8080/images/volbeat.png"
     },
     {
       "id": "314",
       "name": "illumise",
       "types": ["bug"],
-      "url": "public/images/illumise.png"
+      "url": "http://localhost:8080/images/illumise.png"
     },
     {
       "id": "315",
       "name": "roselia",
       "types": ["grass", "poison"],
-      "url": "public/images/roselia.png"
+      "url": "http://localhost:8080/images/roselia.png"
     },
     {
       "id": "316",
       "name": "gulpin",
       "types": ["poison"],
-      "url": "public/images/gulpin.png"
+      "url": "http://localhost:8080/images/gulpin.png"
     },
     {
       "id": "317",
       "name": "swalot",
       "types": ["poison"],
-      "url": "public/images/swalot.png"
+      "url": "http://localhost:8080/images/swalot.png"
     },
     {
       "id": "318",
       "name": "carvanha",
       "types": ["water", "dark"],
-      "url": "public/images/carvanha.png"
+      "url": "http://localhost:8080/images/carvanha.png"
     },
     {
       "id": "319",
       "name": "sharpedo",
       "types": ["water", "dark"],
-      "url": "public/images/sharpedo.png"
+      "url": "http://localhost:8080/images/sharpedo.png"
     },
     {
       "id": "320",
       "name": "wailmer",
       "types": ["water"],
-      "url": "public/images/wailmer.png"
+      "url": "http://localhost:8080/images/wailmer.png"
     },
     {
       "id": "321",
       "name": "wailord",
       "types": ["water"],
-      "url": "public/images/wailord.png"
+      "url": "http://localhost:8080/images/wailord.png"
     },
     {
       "id": "322",
       "name": "numel",
       "types": ["fire", "ground"],
-      "url": "public/images/numel.png"
+      "url": "http://localhost:8080/images/numel.png"
     },
     {
       "id": "323",
       "name": "camerupt",
       "types": ["fire", "ground"],
-      "url": "public/images/camerupt.png"
+      "url": "http://localhost:8080/images/camerupt.png"
     },
     {
       "id": "324",
       "name": "torkoal",
       "types": ["fire"],
-      "url": "public/images/torkoal.png"
+      "url": "http://localhost:8080/images/torkoal.png"
     },
     {
       "id": "325",
       "name": "spoink",
       "types": ["psychic"],
-      "url": "public/images/spoink.png"
+      "url": "http://localhost:8080/images/spoink.png"
     },
     {
       "id": "326",
       "name": "grumpig",
       "types": ["psychic"],
-      "url": "public/images/grumpig.png"
+      "url": "http://localhost:8080/images/grumpig.png"
     },
     {
       "id": "327",
       "name": "spinda",
       "types": ["normal"],
-      "url": "public/images/spinda.png"
+      "url": "http://localhost:8080/images/spinda.png"
     },
     {
       "id": "328",
       "name": "trapinch",
       "types": ["ground"],
-      "url": "public/images/trapinch.png"
+      "url": "http://localhost:8080/images/trapinch.png"
     },
     {
       "id": "329",
       "name": "vibrava",
       "types": ["ground", "dragon"],
-      "url": "public/images/vibrava.png"
+      "url": "http://localhost:8080/images/vibrava.png"
     },
     {
       "id": "330",
       "name": "flygon",
       "types": ["ground", "dragon"],
-      "url": "public/images/flygon.png"
+      "url": "http://localhost:8080/images/flygon.png"
     },
     {
       "id": "331",
       "name": "cacnea",
       "types": ["grass"],
-      "url": "public/images/cacnea.png"
+      "url": "http://localhost:8080/images/cacnea.png"
     },
     {
       "id": "332",
       "name": "cacturne",
       "types": ["grass", "dark"],
-      "url": "public/images/cacturne.png"
+      "url": "http://localhost:8080/images/cacturne.png"
     },
     {
       "id": "333",
       "name": "swablu",
       "types": ["normal", "flying"],
-      "url": "public/images/swablu.png"
+      "url": "http://localhost:8080/images/swablu.png"
     },
     {
       "id": "334",
       "name": "altaria",
       "types": ["dragon", "flying"],
-      "url": "public/images/altaria.png"
+      "url": "http://localhost:8080/images/altaria.png"
     },
     {
       "id": "335",
       "name": "zangoose",
       "types": ["normal"],
-      "url": "public/images/zangoose.png"
+      "url": "http://localhost:8080/images/zangoose.png"
     },
     {
       "id": "336",
       "name": "seviper",
       "types": ["poison"],
-      "url": "public/images/seviper.png"
+      "url": "http://localhost:8080/images/seviper.png"
     },
     {
       "id": "337",
       "name": "lunatone",
       "types": ["rock", "psychic"],
-      "url": "public/images/lunatone.png"
+      "url": "http://localhost:8080/images/lunatone.png"
     },
     {
       "id": "338",
       "name": "solrock",
       "types": ["rock", "psychic"],
-      "url": "public/images/solrock.png"
+      "url": "http://localhost:8080/images/solrock.png"
     },
     {
       "id": "339",
       "name": "barboach",
       "types": ["water", "ground"],
-      "url": "public/images/barboach.png"
+      "url": "http://localhost:8080/images/barboach.png"
     },
     {
       "id": "340",
       "name": "whiscash",
       "types": ["water", "ground"],
-      "url": "public/images/whiscash.png"
+      "url": "http://localhost:8080/images/whiscash.png"
     },
     {
       "id": "341",
       "name": "corphish",
       "types": ["water"],
-      "url": "public/images/corphish.png"
+      "url": "http://localhost:8080/images/corphish.png"
     },
     {
       "id": "342",
       "name": "crawdaunt",
       "types": ["water", "dark"],
-      "url": "public/images/crawdaunt.png"
+      "url": "http://localhost:8080/images/crawdaunt.png"
     },
     {
       "id": "343",
       "name": "baltoy",
       "types": ["ground", "psychic"],
-      "url": "public/images/baltoy.png"
+      "url": "http://localhost:8080/images/baltoy.png"
     },
     {
       "id": "344",
       "name": "claydol",
       "types": ["ground", "psychic"],
-      "url": "public/images/claydol.png"
+      "url": "http://localhost:8080/images/claydol.png"
     },
     {
       "id": "345",
       "name": "lileep",
       "types": ["rock", "grass"],
-      "url": "public/images/lileep.png"
+      "url": "http://localhost:8080/images/lileep.png"
     },
     {
       "id": "346",
       "name": "cradily",
       "types": ["rock", "grass"],
-      "url": "public/images/cradily.png"
+      "url": "http://localhost:8080/images/cradily.png"
     },
     {
       "id": "347",
       "name": "anorith",
       "types": ["rock", "bug"],
-      "url": "public/images/anorith.png"
+      "url": "http://localhost:8080/images/anorith.png"
     },
     {
       "id": "348",
       "name": "armaldo",
       "types": ["rock", "bug"],
-      "url": "public/images/armaldo.png"
+      "url": "http://localhost:8080/images/armaldo.png"
     },
     {
       "id": "349",
       "name": "feebas",
       "types": ["water"],
-      "url": "public/images/feebas.png"
+      "url": "http://localhost:8080/images/feebas.png"
     },
     {
       "id": "350",
       "name": "milotic",
       "types": ["water"],
-      "url": "public/images/milotic.png"
+      "url": "http://localhost:8080/images/milotic.png"
     },
     {
       "id": "351",
       "name": "castform",
       "types": ["normal"],
-      "url": "public/images/castform.png"
+      "url": "http://localhost:8080/images/castform.png"
     },
     {
       "id": "352",
       "name": "kecleon",
       "types": ["normal"],
-      "url": "public/images/kecleon.png"
+      "url": "http://localhost:8080/images/kecleon.png"
     },
     {
       "id": "353",
       "name": "shuppet",
       "types": ["ghost"],
-      "url": "public/images/shuppet.png"
+      "url": "http://localhost:8080/images/shuppet.png"
     },
     {
       "id": "354",
       "name": "banette",
       "types": ["ghost"],
-      "url": "public/images/banette.png"
+      "url": "http://localhost:8080/images/banette.png"
     },
     {
       "id": "355",
       "name": "duskull",
       "types": ["ghost"],
-      "url": "public/images/duskull.png"
+      "url": "http://localhost:8080/images/duskull.png"
     },
     {
       "id": "356",
       "name": "dusclops",
       "types": ["ghost"],
-      "url": "public/images/dusclops.png"
+      "url": "http://localhost:8080/images/dusclops.png"
     },
     {
       "id": "357",
       "name": "tropius",
       "types": ["grass", "flying"],
-      "url": "public/images/tropius.png"
+      "url": "http://localhost:8080/images/tropius.png"
     },
     {
       "id": "358",
       "name": "chimecho",
       "types": ["psychic"],
-      "url": "public/images/chimecho.png"
+      "url": "http://localhost:8080/images/chimecho.png"
     },
     {
       "id": "359",
       "name": "absol",
       "types": ["dark"],
-      "url": "public/images/absol.png"
+      "url": "http://localhost:8080/images/absol.png"
     },
     {
       "id": "360",
       "name": "wynaut",
       "types": ["psychic"],
-      "url": "public/images/wynaut.png"
+      "url": "http://localhost:8080/images/wynaut.png"
     },
     {
       "id": "361",
       "name": "snorunt",
       "types": ["ice"],
-      "url": "public/images/snorunt.png"
+      "url": "http://localhost:8080/images/snorunt.png"
     },
     {
       "id": "362",
       "name": "glalie",
       "types": ["ice"],
-      "url": "public/images/glalie.png"
+      "url": "http://localhost:8080/images/glalie.png"
     },
     {
       "id": "363",
       "name": "spheal",
       "types": ["ice", "water"],
-      "url": "public/images/spheal.png"
+      "url": "http://localhost:8080/images/spheal.png"
     },
     {
       "id": "364",
       "name": "sealeo",
       "types": ["ice", "water"],
-      "url": "public/images/sealeo.png"
+      "url": "http://localhost:8080/images/sealeo.png"
     },
     {
       "id": "365",
       "name": "walrein",
       "types": ["ice", "water"],
-      "url": "public/images/walrein.png"
+      "url": "http://localhost:8080/images/walrein.png"
     },
     {
       "id": "366",
       "name": "clamperl",
       "types": ["water"],
-      "url": "public/images/clamperl.png"
+      "url": "http://localhost:8080/images/clamperl.png"
     },
     {
       "id": "367",
       "name": "huntail",
       "types": ["water"],
-      "url": "public/images/huntail.png"
+      "url": "http://localhost:8080/images/huntail.png"
     },
     {
       "id": "368",
       "name": "gorebyss",
       "types": ["water"],
-      "url": "public/images/gorebyss.png"
+      "url": "http://localhost:8080/images/gorebyss.png"
     },
     {
       "id": "369",
       "name": "relicanth",
       "types": ["water", "rock"],
-      "url": "public/images/relicanth.png"
+      "url": "http://localhost:8080/images/relicanth.png"
     },
     {
       "id": "370",
       "name": "luvdisc",
       "types": ["water"],
-      "url": "public/images/luvdisc.png"
+      "url": "http://localhost:8080/images/luvdisc.png"
     },
     {
       "id": "371",
       "name": "bagon",
       "types": ["dragon"],
-      "url": "public/images/bagon.png"
+      "url": "http://localhost:8080/images/bagon.png"
     },
     {
       "id": "372",
       "name": "shelgon",
       "types": ["dragon"],
-      "url": "public/images/shelgon.png"
+      "url": "http://localhost:8080/images/shelgon.png"
     },
     {
       "id": "373",
       "name": "salamence",
       "types": ["dragon", "flying"],
-      "url": "public/images/salamence.png"
+      "url": "http://localhost:8080/images/salamence.png"
     },
     {
       "id": "374",
       "name": "beldum",
       "types": ["steel", "psychic"],
-      "url": "public/images/beldum.png"
+      "url": "http://localhost:8080/images/beldum.png"
     },
     {
       "id": "375",
       "name": "metang",
       "types": ["steel", "psychic"],
-      "url": "public/images/metang.png"
+      "url": "http://localhost:8080/images/metang.png"
     },
     {
       "id": "376",
       "name": "metagross",
       "types": ["steel", "psychic"],
-      "url": "public/images/metagross.png"
+      "url": "http://localhost:8080/images/metagross.png"
     },
     {
       "id": "377",
       "name": "regirock",
       "types": ["rock"],
-      "url": "public/images/regirock.png"
+      "url": "http://localhost:8080/images/regirock.png"
     },
     {
       "id": "378",
       "name": "regice",
       "types": ["ice"],
-      "url": "public/images/regice.png"
+      "url": "http://localhost:8080/images/regice.png"
     },
     {
       "id": "379",
       "name": "registeel",
       "types": ["steel"],
-      "url": "public/images/registeel.png"
+      "url": "http://localhost:8080/images/registeel.png"
     },
     {
       "id": "380",
       "name": "latias",
       "types": ["dragon", "psychic"],
-      "url": "public/images/latias.png"
+      "url": "http://localhost:8080/images/latias.png"
     },
     {
       "id": "381",
       "name": "latios",
       "types": ["dragon", "psychic"],
-      "url": "public/images/latios.png"
+      "url": "http://localhost:8080/images/latios.png"
     },
     {
       "id": "382",
       "name": "kyogre",
       "types": ["water"],
-      "url": "public/images/kyogre.png"
+      "url": "http://localhost:8080/images/kyogre.png"
     },
     {
       "id": "383",
       "name": "groudon",
       "types": ["ground"],
-      "url": "public/images/groudon.png"
+      "url": "http://localhost:8080/images/groudon.png"
     },
     {
       "id": "384",
       "name": "rayquaza",
       "types": ["dragon", "flying"],
-      "url": "public/images/rayquaza.png"
+      "url": "http://localhost:8080/images/rayquaza.png"
     },
     {
       "id": "385",
       "name": "jirachi",
       "types": ["steel", "psychic"],
-      "url": "public/images/jirachi.png"
+      "url": "http://localhost:8080/images/jirachi.png"
     },
     {
       "id": "386",
       "name": "deoxys-normal",
       "types": ["psychic"],
-      "url": "public/images/deoxys-normal.png"
+      "url": "http://localhost:8080/images/deoxys-normal.png"
     },
     {
       "id": "387",
       "name": "turtwig",
       "types": ["grass"],
-      "url": "public/images/turtwig.png"
+      "url": "http://localhost:8080/images/turtwig.png"
     },
     {
       "id": "388",
       "name": "grotle",
       "types": ["grass"],
-      "url": "public/images/grotle.png"
+      "url": "http://localhost:8080/images/grotle.png"
     },
     {
       "id": "389",
       "name": "torterra",
       "types": ["grass", "ground"],
-      "url": "public/images/torterra.png"
+      "url": "http://localhost:8080/images/torterra.png"
     },
     {
       "id": "390",
       "name": "chimchar",
       "types": ["fire"],
-      "url": "public/images/chimchar.png"
+      "url": "http://localhost:8080/images/chimchar.png"
     },
     {
       "id": "391",
       "name": "monferno",
       "types": ["fire", "fighting"],
-      "url": "public/images/monferno.png"
+      "url": "http://localhost:8080/images/monferno.png"
     },
     {
       "id": "392",
       "name": "infernape",
       "types": ["fire", "fighting"],
-      "url": "public/images/infernape.png"
+      "url": "http://localhost:8080/images/infernape.png"
     },
     {
       "id": "393",
       "name": "piplup",
       "types": ["water"],
-      "url": "public/images/piplup.png"
+      "url": "http://localhost:8080/images/piplup.png"
     },
     {
       "id": "394",
       "name": "prinplup",
       "types": ["water"],
-      "url": "public/images/prinplup.png"
+      "url": "http://localhost:8080/images/prinplup.png"
     },
     {
       "id": "395",
       "name": "empoleon",
       "types": ["water", "steel"],
-      "url": "public/images/empoleon.png"
+      "url": "http://localhost:8080/images/empoleon.png"
     },
     {
       "id": "396",
       "name": "starly",
       "types": ["normal", "flying"],
-      "url": "public/images/starly.png"
+      "url": "http://localhost:8080/images/starly.png"
     },
     {
       "id": "397",
       "name": "staravia",
       "types": ["normal", "flying"],
-      "url": "public/images/staravia.png"
+      "url": "http://localhost:8080/images/staravia.png"
     },
     {
       "id": "398",
       "name": "staraptor",
       "types": ["normal", "flying"],
-      "url": "public/images/staraptor.png"
+      "url": "http://localhost:8080/images/staraptor.png"
     },
     {
       "id": "399",
       "name": "bidoof",
       "types": ["normal"],
-      "url": "public/images/bidoof.png"
+      "url": "http://localhost:8080/images/bidoof.png"
     },
     {
       "id": "400",
       "name": "bibarel",
       "types": ["normal", "water"],
-      "url": "public/images/bibarel.png"
+      "url": "http://localhost:8080/images/bibarel.png"
     },
     {
       "id": "401",
       "name": "kricketot",
       "types": ["bug"],
-      "url": "public/images/kricketot.png"
+      "url": "http://localhost:8080/images/kricketot.png"
     },
     {
       "id": "402",
       "name": "kricketune",
       "types": ["bug"],
-      "url": "public/images/kricketune.png"
+      "url": "http://localhost:8080/images/kricketune.png"
     },
     {
       "id": "403",
       "name": "shinx",
       "types": ["electric"],
-      "url": "public/images/shinx.png"
+      "url": "http://localhost:8080/images/shinx.png"
     },
     {
       "id": "404",
       "name": "luxio",
       "types": ["electric"],
-      "url": "public/images/luxio.png"
+      "url": "http://localhost:8080/images/luxio.png"
     },
     {
       "id": "405",
       "name": "luxray",
       "types": ["electric"],
-      "url": "public/images/luxray.png"
+      "url": "http://localhost:8080/images/luxray.png"
     },
     {
       "id": "406",
       "name": "budew",
       "types": ["grass", "poison"],
-      "url": "public/images/budew.png"
+      "url": "http://localhost:8080/images/budew.png"
     },
     {
       "id": "407",
       "name": "roserade",
       "types": ["grass", "poison"],
-      "url": "public/images/roserade.png"
+      "url": "http://localhost:8080/images/roserade.png"
     },
     {
       "id": "408",
       "name": "cranidos",
       "types": ["rock"],
-      "url": "public/images/cranidos.png"
+      "url": "http://localhost:8080/images/cranidos.png"
     },
     {
       "id": "409",
       "name": "rampardos",
       "types": ["rock"],
-      "url": "public/images/rampardos.png"
+      "url": "http://localhost:8080/images/rampardos.png"
     },
     {
       "id": "410",
       "name": "shieldon",
       "types": ["rock", "steel"],
-      "url": "public/images/shieldon.png"
+      "url": "http://localhost:8080/images/shieldon.png"
     },
     {
       "id": "411",
       "name": "bastiodon",
       "types": ["rock", "steel"],
-      "url": "public/images/bastiodon.png"
+      "url": "http://localhost:8080/images/bastiodon.png"
     },
     {
       "id": "412",
       "name": "burmy",
       "types": ["bug"],
-      "url": "public/images/burmy.png"
+      "url": "http://localhost:8080/images/burmy.png"
     },
     {
       "id": "413",
       "name": "wormadam-plant",
       "types": ["bug", "grass"],
-      "url": "public/images/wormadam-plant.png"
+      "url": "http://localhost:8080/images/wormadam-plant.png"
     },
     {
       "id": "414",
       "name": "mothim",
       "types": ["bug", "flying"],
-      "url": "public/images/mothim.png"
+      "url": "http://localhost:8080/images/mothim.png"
     },
     {
       "id": "415",
       "name": "combee",
       "types": ["bug", "flying"],
-      "url": "public/images/combee.png"
+      "url": "http://localhost:8080/images/combee.png"
     },
     {
       "id": "416",
       "name": "vespiquen",
       "types": ["bug", "flying"],
-      "url": "public/images/vespiquen.png"
+      "url": "http://localhost:8080/images/vespiquen.png"
     },
     {
       "id": "417",
       "name": "pachirisu",
       "types": ["electric"],
-      "url": "public/images/pachirisu.png"
+      "url": "http://localhost:8080/images/pachirisu.png"
     },
     {
       "id": "418",
       "name": "buizel",
       "types": ["water"],
-      "url": "public/images/buizel.png"
+      "url": "http://localhost:8080/images/buizel.png"
     },
     {
       "id": "419",
       "name": "floatzel",
       "types": ["water"],
-      "url": "public/images/floatzel.png"
+      "url": "http://localhost:8080/images/floatzel.png"
     },
     {
       "id": "420",
       "name": "cherubi",
       "types": ["grass"],
-      "url": "public/images/cherubi.png"
+      "url": "http://localhost:8080/images/cherubi.png"
     },
     {
       "id": "421",
       "name": "cherrim",
       "types": ["grass"],
-      "url": "public/images/cherrim.png"
+      "url": "http://localhost:8080/images/cherrim.png"
     },
     {
       "id": "422",
       "name": "shellos",
       "types": ["water"],
-      "url": "public/images/shellos.png"
+      "url": "http://localhost:8080/images/shellos.png"
     },
     {
       "id": "423",
       "name": "gastrodon",
       "types": ["water", "ground"],
-      "url": "public/images/gastrodon.png"
+      "url": "http://localhost:8080/images/gastrodon.png"
     },
     {
       "id": "424",
       "name": "ambipom",
       "types": ["normal"],
-      "url": "public/images/ambipom.png"
+      "url": "http://localhost:8080/images/ambipom.png"
     },
     {
       "id": "425",
       "name": "drifloon",
       "types": ["ghost", "flying"],
-      "url": "public/images/drifloon.png"
+      "url": "http://localhost:8080/images/drifloon.png"
     },
     {
       "id": "426",
       "name": "drifblim",
       "types": ["ghost", "flying"],
-      "url": "public/images/drifblim.png"
+      "url": "http://localhost:8080/images/drifblim.png"
     },
     {
       "id": "427",
       "name": "buneary",
       "types": ["normal"],
-      "url": "public/images/buneary.png"
+      "url": "http://localhost:8080/images/buneary.png"
     },
     {
       "id": "428",
       "name": "lopunny",
       "types": ["normal"],
-      "url": "public/images/lopunny.png"
+      "url": "http://localhost:8080/images/lopunny.png"
     },
     {
       "id": "429",
       "name": "mismagius",
       "types": ["ghost"],
-      "url": "public/images/mismagius.png"
+      "url": "http://localhost:8080/images/mismagius.png"
     },
     {
       "id": "430",
       "name": "honchkrow",
       "types": ["dark", "flying"],
-      "url": "public/images/honchkrow.png"
+      "url": "http://localhost:8080/images/honchkrow.png"
     },
     {
       "id": "431",
       "name": "glameow",
       "types": ["normal"],
-      "url": "public/images/glameow.png"
+      "url": "http://localhost:8080/images/glameow.png"
     },
     {
       "id": "432",
       "name": "purugly",
       "types": ["normal"],
-      "url": "public/images/purugly.png"
+      "url": "http://localhost:8080/images/purugly.png"
     },
     {
       "id": "433",
       "name": "chingling",
       "types": ["psychic"],
-      "url": "public/images/chingling.png"
+      "url": "http://localhost:8080/images/chingling.png"
     },
     {
       "id": "434",
       "name": "stunky",
       "types": ["poison", "dark"],
-      "url": "public/images/stunky.png"
+      "url": "http://localhost:8080/images/stunky.png"
     },
     {
       "id": "435",
       "name": "skuntank",
       "types": ["poison", "dark"],
-      "url": "public/images/skuntank.png"
+      "url": "http://localhost:8080/images/skuntank.png"
     },
     {
       "id": "436",
       "name": "bronzor",
       "types": ["steel", "psychic"],
-      "url": "public/images/bronzor.png"
+      "url": "http://localhost:8080/images/bronzor.png"
     },
     {
       "id": "437",
       "name": "bronzong",
       "types": ["steel", "psychic"],
-      "url": "public/images/bronzong.png"
+      "url": "http://localhost:8080/images/bronzong.png"
     },
     {
       "id": "438",
       "name": "bonsly",
       "types": ["rock"],
-      "url": "public/images/bonsly.png"
+      "url": "http://localhost:8080/images/bonsly.png"
     },
     {
       "id": "439",
       "name": "mime-jr",
       "types": ["psychic", "fairy"],
-      "url": "public/images/mime-jr.png"
+      "url": "http://localhost:8080/images/mime-jr.png"
     },
     {
       "id": "440",
       "name": "happiny",
       "types": ["normal"],
-      "url": "public/images/happiny.png"
+      "url": "http://localhost:8080/images/happiny.png"
     },
     {
       "id": "441",
       "name": "chatot",
       "types": ["normal", "flying"],
-      "url": "public/images/chatot.png"
+      "url": "http://localhost:8080/images/chatot.png"
     },
     {
       "id": "442",
       "name": "spiritomb",
       "types": ["ghost", "dark"],
-      "url": "public/images/spiritomb.png"
+      "url": "http://localhost:8080/images/spiritomb.png"
     },
     {
       "id": "443",
       "name": "gible",
       "types": ["dragon", "ground"],
-      "url": "public/images/gible.png"
+      "url": "http://localhost:8080/images/gible.png"
     },
     {
       "id": "444",
       "name": "gabite",
       "types": ["dragon", "ground"],
-      "url": "public/images/gabite.png"
+      "url": "http://localhost:8080/images/gabite.png"
     },
     {
       "id": "445",
       "name": "garchomp",
       "types": ["dragon", "ground"],
-      "url": "public/images/garchomp.png"
+      "url": "http://localhost:8080/images/garchomp.png"
     },
     {
       "id": "446",
       "name": "munchlax",
       "types": ["normal"],
-      "url": "public/images/munchlax.png"
+      "url": "http://localhost:8080/images/munchlax.png"
     },
     {
       "id": "447",
       "name": "riolu",
       "types": ["fighting"],
-      "url": "public/images/riolu.png"
+      "url": "http://localhost:8080/images/riolu.png"
     },
     {
       "id": "448",
       "name": "lucario",
       "types": ["fighting", "steel"],
-      "url": "public/images/lucario.png"
+      "url": "http://localhost:8080/images/lucario.png"
     },
     {
       "id": "449",
       "name": "hippopotas",
       "types": ["ground"],
-      "url": "public/images/hippopotas.png"
+      "url": "http://localhost:8080/images/hippopotas.png"
     },
     {
       "id": "450",
       "name": "hippowdon",
       "types": ["ground"],
-      "url": "public/images/hippowdon.png"
+      "url": "http://localhost:8080/images/hippowdon.png"
     },
     {
       "id": "451",
       "name": "skorupi",
       "types": ["poison", "bug"],
-      "url": "public/images/skorupi.png"
+      "url": "http://localhost:8080/images/skorupi.png"
     },
     {
       "id": "452",
       "name": "drapion",
       "types": ["poison", "dark"],
-      "url": "public/images/drapion.png"
+      "url": "http://localhost:8080/images/drapion.png"
     },
     {
       "id": "453",
       "name": "croagunk",
       "types": ["poison", "fighting"],
-      "url": "public/images/croagunk.png"
+      "url": "http://localhost:8080/images/croagunk.png"
     },
     {
       "id": "454",
       "name": "toxicroak",
       "types": ["poison", "fighting"],
-      "url": "public/images/toxicroak.png"
+      "url": "http://localhost:8080/images/toxicroak.png"
     },
     {
       "id": "455",
       "name": "carnivine",
       "types": ["grass"],
-      "url": "public/images/carnivine.png"
+      "url": "http://localhost:8080/images/carnivine.png"
     },
     {
       "id": "456",
       "name": "finneon",
       "types": ["water"],
-      "url": "public/images/finneon.png"
+      "url": "http://localhost:8080/images/finneon.png"
     },
     {
       "id": "457",
       "name": "lumineon",
       "types": ["water"],
-      "url": "public/images/lumineon.png"
+      "url": "http://localhost:8080/images/lumineon.png"
     },
     {
       "id": "458",
       "name": "mantyke",
       "types": ["water", "flying"],
-      "url": "public/images/mantyke.png"
+      "url": "http://localhost:8080/images/mantyke.png"
     },
     {
       "id": "459",
       "name": "snover",
       "types": ["grass", "ice"],
-      "url": "public/images/snover.png"
+      "url": "http://localhost:8080/images/snover.png"
     },
     {
       "id": "460",
       "name": "abomasnow",
       "types": ["grass", "ice"],
-      "url": "public/images/abomasnow.png"
+      "url": "http://localhost:8080/images/abomasnow.png"
     },
     {
       "id": "461",
       "name": "weavile",
       "types": ["dark", "ice"],
-      "url": "public/images/weavile.png"
+      "url": "http://localhost:8080/images/weavile.png"
     },
     {
       "id": "462",
       "name": "magnezone",
       "types": ["electric", "steel"],
-      "url": "public/images/magnezone.png"
+      "url": "http://localhost:8080/images/magnezone.png"
     },
     {
       "id": "463",
       "name": "lickilicky",
       "types": ["normal"],
-      "url": "public/images/lickilicky.png"
+      "url": "http://localhost:8080/images/lickilicky.png"
     },
     {
       "id": "464",
       "name": "rhyperior",
       "types": ["ground", "rock"],
-      "url": "public/images/rhyperior.png"
+      "url": "http://localhost:8080/images/rhyperior.png"
     },
     {
       "id": "465",
       "name": "tangrowth",
       "types": ["grass"],
-      "url": "public/images/tangrowth.png"
+      "url": "http://localhost:8080/images/tangrowth.png"
     },
     {
       "id": "466",
       "name": "electivire",
       "types": ["electric"],
-      "url": "public/images/electivire.png"
+      "url": "http://localhost:8080/images/electivire.png"
     },
     {
       "id": "467",
       "name": "magmortar",
       "types": ["fire"],
-      "url": "public/images/magmortar.png"
+      "url": "http://localhost:8080/images/magmortar.png"
     },
     {
       "id": "468",
       "name": "togekiss",
       "types": ["fairy", "flying"],
-      "url": "public/images/togekiss.png"
+      "url": "http://localhost:8080/images/togekiss.png"
     },
     {
       "id": "469",
       "name": "yanmega",
       "types": ["bug", "flying"],
-      "url": "public/images/yanmega.png"
+      "url": "http://localhost:8080/images/yanmega.png"
     },
     {
       "id": "470",
       "name": "leafeon",
       "types": ["grass"],
-      "url": "public/images/leafeon.png"
+      "url": "http://localhost:8080/images/leafeon.png"
     },
     {
       "id": "471",
       "name": "glaceon",
       "types": ["ice"],
-      "url": "public/images/glaceon.png"
+      "url": "http://localhost:8080/images/glaceon.png"
     },
     {
       "id": "472",
       "name": "gliscor",
       "types": ["ground", "flying"],
-      "url": "public/images/gliscor.png"
+      "url": "http://localhost:8080/images/gliscor.png"
     },
     {
       "id": "473",
       "name": "mamoswine",
       "types": ["ice", "ground"],
-      "url": "public/images/mamoswine.png"
+      "url": "http://localhost:8080/images/mamoswine.png"
     },
     {
       "id": "474",
       "name": "porygon-z",
       "types": ["normal"],
-      "url": "public/images/porygon-z.png"
+      "url": "http://localhost:8080/images/porygon-z.png"
     },
     {
       "id": "475",
       "name": "gallade",
       "types": ["psychic", "fighting"],
-      "url": "public/images/gallade.png"
+      "url": "http://localhost:8080/images/gallade.png"
     },
     {
       "id": "476",
       "name": "probopass",
       "types": ["rock", "steel"],
-      "url": "public/images/probopass.png"
+      "url": "http://localhost:8080/images/probopass.png"
     },
     {
       "id": "477",
       "name": "dusknoir",
       "types": ["ghost"],
-      "url": "public/images/dusknoir.png"
+      "url": "http://localhost:8080/images/dusknoir.png"
     },
     {
       "id": "478",
       "name": "froslass",
       "types": ["ice", "ghost"],
-      "url": "public/images/froslass.png"
+      "url": "http://localhost:8080/images/froslass.png"
     },
     {
       "id": "479",
       "name": "rotom",
       "types": ["electric", "ghost"],
-      "url": "public/images/rotom.png"
+      "url": "http://localhost:8080/images/rotom.png"
     },
     {
       "id": "480",
       "name": "uxie",
       "types": ["psychic"],
-      "url": "public/images/uxie.png"
+      "url": "http://localhost:8080/images/uxie.png"
     },
     {
       "id": "481",
       "name": "mesprit",
       "types": ["psychic"],
-      "url": "public/images/mesprit.png"
+      "url": "http://localhost:8080/images/mesprit.png"
     },
     {
       "id": "482",
       "name": "azelf",
       "types": ["psychic"],
-      "url": "public/images/azelf.png"
+      "url": "http://localhost:8080/images/azelf.png"
     },
     {
       "id": "483",
       "name": "dialga",
       "types": ["steel", "dragon"],
-      "url": "public/images/dialga.png"
+      "url": "http://localhost:8080/images/dialga.png"
     },
     {
       "id": "484",
       "name": "palkia",
       "types": ["water", "dragon"],
-      "url": "public/images/palkia.png"
+      "url": "http://localhost:8080/images/palkia.png"
     },
     {
       "id": "485",
       "name": "heatran",
       "types": ["fire", "steel"],
-      "url": "public/images/heatran.png"
+      "url": "http://localhost:8080/images/heatran.png"
     },
     {
       "id": "486",
       "name": "regigigas",
       "types": ["normal"],
-      "url": "public/images/regigigas.png"
+      "url": "http://localhost:8080/images/regigigas.png"
     },
     {
       "id": "487",
       "name": "giratina-altered",
       "types": ["ghost", "dragon"],
-      "url": "public/images/giratina-altered.png"
+      "url": "http://localhost:8080/images/giratina-altered.png"
     },
     {
       "id": "488",
       "name": "cresselia",
       "types": ["psychic"],
-      "url": "public/images/cresselia.png"
+      "url": "http://localhost:8080/images/cresselia.png"
     },
     {
       "id": "489",
       "name": "phione",
       "types": ["water"],
-      "url": "public/images/phione.png"
+      "url": "http://localhost:8080/images/phione.png"
     },
     {
       "id": "490",
       "name": "manaphy",
       "types": ["water"],
-      "url": "public/images/manaphy.png"
+      "url": "http://localhost:8080/images/manaphy.png"
     },
     {
       "id": "491",
       "name": "darkrai",
       "types": ["dark"],
-      "url": "public/images/darkrai.png"
+      "url": "http://localhost:8080/images/darkrai.png"
     },
     {
       "id": "492",
       "name": "shaymin-land",
       "types": ["grass"],
-      "url": "public/images/shaymin-land.png"
+      "url": "http://localhost:8080/images/shaymin-land.png"
     },
     {
       "id": "493",
       "name": "arceus",
       "types": ["normal"],
-      "url": "public/images/arceus.png"
+      "url": "http://localhost:8080/images/arceus.png"
     },
     {
       "id": "494",
       "name": "victini",
       "types": ["psychic", "fire"],
-      "url": "public/images/victini.png"
+      "url": "http://localhost:8080/images/victini.png"
     },
     {
       "id": "495",
       "name": "snivy",
       "types": ["grass"],
-      "url": "public/images/snivy.png"
+      "url": "http://localhost:8080/images/snivy.png"
     },
     {
       "id": "496",
       "name": "servine",
       "types": ["grass"],
-      "url": "public/images/servine.png"
+      "url": "http://localhost:8080/images/servine.png"
     },
     {
       "id": "497",
       "name": "serperior",
       "types": ["grass"],
-      "url": "public/images/serperior.png"
+      "url": "http://localhost:8080/images/serperior.png"
     },
     {
       "id": "498",
       "name": "tepig",
       "types": ["fire"],
-      "url": "public/images/tepig.png"
+      "url": "http://localhost:8080/images/tepig.png"
     },
     {
       "id": "499",
       "name": "pignite",
       "types": ["fire", "fighting"],
-      "url": "public/images/pignite.png"
+      "url": "http://localhost:8080/images/pignite.png"
     },
     {
       "id": "500",
       "name": "emboar",
       "types": ["fire", "fighting"],
-      "url": "public/images/emboar.png"
+      "url": "http://localhost:8080/images/emboar.png"
     },
     {
       "id": "501",
       "name": "oshawott",
       "types": ["water"],
-      "url": "public/images/oshawott.png"
+      "url": "http://localhost:8080/images/oshawott.png"
     },
     {
       "id": "502",
       "name": "dewott",
       "types": ["water"],
-      "url": "public/images/dewott.png"
+      "url": "http://localhost:8080/images/dewott.png"
     },
     {
       "id": "503",
       "name": "samurott",
       "types": ["water"],
-      "url": "public/images/samurott.png"
+      "url": "http://localhost:8080/images/samurott.png"
     },
     {
       "id": "504",
       "name": "patrat",
       "types": ["normal"],
-      "url": "public/images/patrat.png"
+      "url": "http://localhost:8080/images/patrat.png"
     },
     {
       "id": "505",
       "name": "watchog",
       "types": ["normal"],
-      "url": "public/images/watchog.png"
+      "url": "http://localhost:8080/images/watchog.png"
     },
     {
       "id": "506",
       "name": "lillipup",
       "types": ["normal"],
-      "url": "public/images/lillipup.png"
+      "url": "http://localhost:8080/images/lillipup.png"
     },
     {
       "id": "507",
       "name": "herdier",
       "types": ["normal"],
-      "url": "public/images/herdier.png"
+      "url": "http://localhost:8080/images/herdier.png"
     },
     {
       "id": "508",
       "name": "stoutland",
       "types": ["normal"],
-      "url": "public/images/stoutland.png"
+      "url": "http://localhost:8080/images/stoutland.png"
     },
     {
       "id": "509",
       "name": "purrloin",
       "types": ["dark"],
-      "url": "public/images/purrloin.png"
+      "url": "http://localhost:8080/images/purrloin.png"
     },
     {
       "id": "510",
       "name": "liepard",
       "types": ["dark"],
-      "url": "public/images/liepard.png"
+      "url": "http://localhost:8080/images/liepard.png"
     },
     {
       "id": "511",
       "name": "pansage",
       "types": ["grass"],
-      "url": "public/images/pansage.png"
+      "url": "http://localhost:8080/images/pansage.png"
     },
     {
       "id": "512",
       "name": "simisage",
       "types": ["grass"],
-      "url": "public/images/simisage.png"
+      "url": "http://localhost:8080/images/simisage.png"
     },
     {
       "id": "513",
       "name": "pansear",
       "types": ["fire"],
-      "url": "public/images/pansear.png"
+      "url": "http://localhost:8080/images/pansear.png"
     },
     {
       "id": "514",
       "name": "simisear",
       "types": ["fire"],
-      "url": "public/images/simisear.png"
+      "url": "http://localhost:8080/images/simisear.png"
     },
     {
       "id": "515",
       "name": "panpour",
       "types": ["water"],
-      "url": "public/images/panpour.png"
+      "url": "http://localhost:8080/images/panpour.png"
     },
     {
       "id": "516",
       "name": "simipour",
       "types": ["water"],
-      "url": "public/images/simipour.png"
+      "url": "http://localhost:8080/images/simipour.png"
     },
     {
       "id": "517",
       "name": "munna",
       "types": ["psychic"],
-      "url": "public/images/munna.png"
+      "url": "http://localhost:8080/images/munna.png"
     },
     {
       "id": "518",
       "name": "musharna",
       "types": ["psychic"],
-      "url": "public/images/musharna.png"
+      "url": "http://localhost:8080/images/musharna.png"
     },
     {
       "id": "519",
       "name": "pidove",
       "types": ["normal", "flying"],
-      "url": "public/images/pidove.png"
+      "url": "http://localhost:8080/images/pidove.png"
     },
     {
       "id": "520",
       "name": "tranquill",
       "types": ["normal", "flying"],
-      "url": "public/images/tranquill.png"
+      "url": "http://localhost:8080/images/tranquill.png"
     },
     {
       "id": "521",
       "name": "unfezant",
       "types": ["normal", "flying"],
-      "url": "public/images/unfezant.png"
+      "url": "http://localhost:8080/images/unfezant.png"
     },
     {
       "id": "522",
       "name": "blitzle",
       "types": ["electric"],
-      "url": "public/images/blitzle.png"
+      "url": "http://localhost:8080/images/blitzle.png"
     },
     {
       "id": "523",
       "name": "zebstrika",
       "types": ["electric"],
-      "url": "public/images/zebstrika.png"
+      "url": "http://localhost:8080/images/zebstrika.png"
     },
     {
       "id": "524",
       "name": "roggenrola",
       "types": ["rock"],
-      "url": "public/images/roggenrola.png"
+      "url": "http://localhost:8080/images/roggenrola.png"
     },
     {
       "id": "525",
       "name": "boldore",
       "types": ["rock"],
-      "url": "public/images/boldore.png"
+      "url": "http://localhost:8080/images/boldore.png"
     },
     {
       "id": "526",
       "name": "gigalith",
       "types": ["rock"],
-      "url": "public/images/gigalith.png"
+      "url": "http://localhost:8080/images/gigalith.png"
     },
     {
       "id": "527",
       "name": "woobat",
       "types": ["psychic", "flying"],
-      "url": "public/images/woobat.png"
+      "url": "http://localhost:8080/images/woobat.png"
     },
     {
       "id": "528",
       "name": "swoobat",
       "types": ["psychic", "flying"],
-      "url": "public/images/swoobat.png"
+      "url": "http://localhost:8080/images/swoobat.png"
     },
     {
       "id": "529",
       "name": "drilbur",
       "types": ["ground"],
-      "url": "public/images/drilbur.png"
+      "url": "http://localhost:8080/images/drilbur.png"
     },
     {
       "id": "530",
       "name": "excadrill",
       "types": ["ground", "steel"],
-      "url": "public/images/excadrill.png"
+      "url": "http://localhost:8080/images/excadrill.png"
     },
     {
       "id": "531",
       "name": "audino",
       "types": ["normal"],
-      "url": "public/images/audino.png"
+      "url": "http://localhost:8080/images/audino.png"
     },
     {
       "id": "532",
       "name": "timburr",
       "types": ["fighting"],
-      "url": "public/images/timburr.png"
+      "url": "http://localhost:8080/images/timburr.png"
     },
     {
       "id": "533",
       "name": "gurdurr",
       "types": ["fighting"],
-      "url": "public/images/gurdurr.png"
+      "url": "http://localhost:8080/images/gurdurr.png"
     },
     {
       "id": "534",
       "name": "conkeldurr",
       "types": ["fighting"],
-      "url": "public/images/conkeldurr.png"
+      "url": "http://localhost:8080/images/conkeldurr.png"
     },
     {
       "id": "535",
       "name": "tympole",
       "types": ["water"],
-      "url": "public/images/tympole.png"
+      "url": "http://localhost:8080/images/tympole.png"
     },
     {
       "id": "536",
       "name": "palpitoad",
       "types": ["water", "ground"],
-      "url": "public/images/palpitoad.png"
+      "url": "http://localhost:8080/images/palpitoad.png"
     },
     {
       "id": "537",
       "name": "seismitoad",
       "types": ["water", "ground"],
-      "url": "public/images/seismitoad.png"
+      "url": "http://localhost:8080/images/seismitoad.png"
     },
     {
       "id": "538",
       "name": "throh",
       "types": ["fighting"],
-      "url": "public/images/throh.png"
+      "url": "http://localhost:8080/images/throh.png"
     },
     {
       "id": "539",
       "name": "sawk",
       "types": ["fighting"],
-      "url": "public/images/sawk.png"
+      "url": "http://localhost:8080/images/sawk.png"
     },
     {
       "id": "540",
       "name": "sewaddle",
       "types": ["bug", "grass"],
-      "url": "public/images/sewaddle.png"
+      "url": "http://localhost:8080/images/sewaddle.png"
     },
     {
       "id": "541",
       "name": "swadloon",
       "types": ["bug", "grass"],
-      "url": "public/images/swadloon.png"
+      "url": "http://localhost:8080/images/swadloon.png"
     },
     {
       "id": "542",
       "name": "leavanny",
       "types": ["bug", "grass"],
-      "url": "public/images/leavanny.png"
+      "url": "http://localhost:8080/images/leavanny.png"
     },
     {
       "id": "543",
       "name": "venipede",
       "types": ["bug", "poison"],
-      "url": "public/images/venipede.png"
+      "url": "http://localhost:8080/images/venipede.png"
     },
     {
       "id": "544",
       "name": "whirlipede",
       "types": ["bug", "poison"],
-      "url": "public/images/whirlipede.png"
+      "url": "http://localhost:8080/images/whirlipede.png"
     },
     {
       "id": "545",
       "name": "scolipede",
       "types": ["bug", "poison"],
-      "url": "public/images/scolipede.png"
+      "url": "http://localhost:8080/images/scolipede.png"
     },
     {
       "id": "546",
       "name": "cottonee",
       "types": ["grass", "fairy"],
-      "url": "public/images/cottonee.png"
+      "url": "http://localhost:8080/images/cottonee.png"
     },
     {
       "id": "547",
       "name": "whimsicott",
       "types": ["grass", "fairy"],
-      "url": "public/images/whimsicott.png"
+      "url": "http://localhost:8080/images/whimsicott.png"
     },
     {
       "id": "548",
       "name": "petilil",
       "types": ["grass"],
-      "url": "public/images/petilil.png"
+      "url": "http://localhost:8080/images/petilil.png"
     },
     {
       "id": "549",
       "name": "lilligant",
       "types": ["grass"],
-      "url": "public/images/lilligant.png"
+      "url": "http://localhost:8080/images/lilligant.png"
     },
     {
       "id": "550",
       "name": "basculin-red-striped",
       "types": ["water"],
-      "url": "public/images/basculin-red-striped.png"
+      "url": "http://localhost:8080/images/basculin-red-striped.png"
     },
     {
       "id": "551",
       "name": "sandile",
       "types": ["ground", "dark"],
-      "url": "public/images/sandile.png"
+      "url": "http://localhost:8080/images/sandile.png"
     },
     {
       "id": "552",
       "name": "krokorok",
       "types": ["ground", "dark"],
-      "url": "public/images/krokorok.png"
+      "url": "http://localhost:8080/images/krokorok.png"
     },
     {
       "id": "553",
       "name": "krookodile",
       "types": ["ground", "dark"],
-      "url": "public/images/krookodile.png"
+      "url": "http://localhost:8080/images/krookodile.png"
     },
     {
       "id": "554",
       "name": "darumaka",
       "types": ["fire"],
-      "url": "public/images/darumaka.png"
+      "url": "http://localhost:8080/images/darumaka.png"
     },
     {
       "id": "555",
       "name": "darmanitan-standard",
       "types": ["fire"],
-      "url": "public/images/darmanitan-standard.png"
+      "url": "http://localhost:8080/images/darmanitan-standard.png"
     },
     {
       "id": "556",
       "name": "maractus",
       "types": ["grass"],
-      "url": "public/images/maractus.png"
+      "url": "http://localhost:8080/images/maractus.png"
     },
     {
       "id": "557",
       "name": "dwebble",
       "types": ["bug", "rock"],
-      "url": "public/images/dwebble.png"
+      "url": "http://localhost:8080/images/dwebble.png"
     },
     {
       "id": "558",
       "name": "crustle",
       "types": ["bug", "rock"],
-      "url": "public/images/crustle.png"
+      "url": "http://localhost:8080/images/crustle.png"
     },
     {
       "id": "559",
       "name": "scraggy",
       "types": ["dark", "fighting"],
-      "url": "public/images/scraggy.png"
+      "url": "http://localhost:8080/images/scraggy.png"
     },
     {
       "id": "560",
       "name": "scrafty",
       "types": ["dark", "fighting"],
-      "url": "public/images/scrafty.png"
+      "url": "http://localhost:8080/images/scrafty.png"
     },
     {
       "id": "561",
       "name": "sigilyph",
       "types": ["psychic", "flying"],
-      "url": "public/images/sigilyph.png"
+      "url": "http://localhost:8080/images/sigilyph.png"
     },
     {
       "id": "562",
       "name": "yamask",
       "types": ["ghost"],
-      "url": "public/images/yamask.png"
+      "url": "http://localhost:8080/images/yamask.png"
     },
     {
       "id": "563",
       "name": "cofagrigus",
       "types": ["ghost"],
-      "url": "public/images/cofagrigus.png"
+      "url": "http://localhost:8080/images/cofagrigus.png"
     },
     {
       "id": "564",
       "name": "tirtouga",
       "types": ["water", "rock"],
-      "url": "public/images/tirtouga.png"
+      "url": "http://localhost:8080/images/tirtouga.png"
     },
     {
       "id": "565",
       "name": "carracosta",
       "types": ["water", "rock"],
-      "url": "public/images/carracosta.png"
+      "url": "http://localhost:8080/images/carracosta.png"
     },
     {
       "id": "566",
       "name": "archen",
       "types": ["rock", "flying"],
-      "url": "public/images/archen.png"
+      "url": "http://localhost:8080/images/archen.png"
     },
     {
       "id": "567",
       "name": "archeops",
       "types": ["rock", "flying"],
-      "url": "public/images/archeops.png"
+      "url": "http://localhost:8080/images/archeops.png"
     },
     {
       "id": "568",
       "name": "trubbish",
       "types": ["poison"],
-      "url": "public/images/trubbish.png"
+      "url": "http://localhost:8080/images/trubbish.png"
     },
     {
       "id": "569",
       "name": "garbodor",
       "types": ["poison"],
-      "url": "public/images/garbodor.png"
+      "url": "http://localhost:8080/images/garbodor.png"
     },
     {
       "id": "570",
       "name": "zorua",
       "types": ["dark"],
-      "url": "public/images/zorua.png"
+      "url": "http://localhost:8080/images/zorua.png"
     },
     {
       "id": "571",
       "name": "zoroark",
       "types": ["dark"],
-      "url": "public/images/zoroark.png"
+      "url": "http://localhost:8080/images/zoroark.png"
     },
     {
       "id": "572",
       "name": "minccino",
       "types": ["normal"],
-      "url": "public/images/minccino.png"
+      "url": "http://localhost:8080/images/minccino.png"
     },
     {
       "id": "573",
       "name": "cinccino",
       "types": ["normal"],
-      "url": "public/images/cinccino.png"
+      "url": "http://localhost:8080/images/cinccino.png"
     },
     {
       "id": "574",
       "name": "gothita",
       "types": ["psychic"],
-      "url": "public/images/gothita.png"
+      "url": "http://localhost:8080/images/gothita.png"
     },
     {
       "id": "575",
       "name": "gothorita",
       "types": ["psychic"],
-      "url": "public/images/gothorita.png"
+      "url": "http://localhost:8080/images/gothorita.png"
     },
     {
       "id": "576",
       "name": "gothitelle",
       "types": ["psychic"],
-      "url": "public/images/gothitelle.png"
+      "url": "http://localhost:8080/images/gothitelle.png"
     },
     {
       "id": "577",
       "name": "solosis",
       "types": ["psychic"],
-      "url": "public/images/solosis.png"
+      "url": "http://localhost:8080/images/solosis.png"
     },
     {
       "id": "578",
       "name": "duosion",
       "types": ["psychic"],
-      "url": "public/images/duosion.png"
+      "url": "http://localhost:8080/images/duosion.png"
     },
     {
       "id": "579",
       "name": "reuniclus",
       "types": ["psychic"],
-      "url": "public/images/reuniclus.png"
+      "url": "http://localhost:8080/images/reuniclus.png"
     },
     {
       "id": "580",
       "name": "ducklett",
       "types": ["water", "flying"],
-      "url": "public/images/ducklett.png"
+      "url": "http://localhost:8080/images/ducklett.png"
     },
     {
       "id": "581",
       "name": "swanna",
       "types": ["water", "flying"],
-      "url": "public/images/swanna.png"
+      "url": "http://localhost:8080/images/swanna.png"
     },
     {
       "id": "582",
       "name": "vanillite",
       "types": ["ice"],
-      "url": "public/images/vanillite.png"
+      "url": "http://localhost:8080/images/vanillite.png"
     },
     {
       "id": "583",
       "name": "vanillish",
       "types": ["ice"],
-      "url": "public/images/vanillish.png"
+      "url": "http://localhost:8080/images/vanillish.png"
     },
     {
       "id": "584",
       "name": "vanilluxe",
       "types": ["ice"],
-      "url": "public/images/vanilluxe.png"
+      "url": "http://localhost:8080/images/vanilluxe.png"
     },
     {
       "id": "585",
       "name": "deerling",
       "types": ["normal", "grass"],
-      "url": "public/images/deerling.png"
+      "url": "http://localhost:8080/images/deerling.png"
     },
     {
       "id": "586",
       "name": "sawsbuck",
       "types": ["normal", "grass"],
-      "url": "public/images/sawsbuck.png"
+      "url": "http://localhost:8080/images/sawsbuck.png"
     },
     {
       "id": "587",
       "name": "emolga",
       "types": ["electric", "flying"],
-      "url": "public/images/emolga.png"
+      "url": "http://localhost:8080/images/emolga.png"
     },
     {
       "id": "588",
       "name": "karrablast",
       "types": ["bug"],
-      "url": "public/images/karrablast.png"
+      "url": "http://localhost:8080/images/karrablast.png"
     },
     {
       "id": "589",
       "name": "escavalier",
       "types": ["bug", "steel"],
-      "url": "public/images/escavalier.png"
+      "url": "http://localhost:8080/images/escavalier.png"
     },
     {
       "id": "590",
       "name": "foongus",
       "types": ["grass", "poison"],
-      "url": "public/images/foongus.png"
+      "url": "http://localhost:8080/images/foongus.png"
     },
     {
       "id": "591",
       "name": "amoonguss",
       "types": ["grass", "poison"],
-      "url": "public/images/amoonguss.png"
+      "url": "http://localhost:8080/images/amoonguss.png"
     },
     {
       "id": "592",
       "name": "frillish",
       "types": ["water", "ghost"],
-      "url": "public/images/frillish.png"
+      "url": "http://localhost:8080/images/frillish.png"
     },
     {
       "id": "593",
       "name": "jellicent",
       "types": ["water", "ghost"],
-      "url": "public/images/jellicent.png"
+      "url": "http://localhost:8080/images/jellicent.png"
     },
     {
       "id": "594",
       "name": "alomomola",
       "types": ["water"],
-      "url": "public/images/alomomola.png"
+      "url": "http://localhost:8080/images/alomomola.png"
     },
     {
       "id": "595",
       "name": "joltik",
       "types": ["bug", "electric"],
-      "url": "public/images/joltik.png"
+      "url": "http://localhost:8080/images/joltik.png"
     },
     {
       "id": "596",
       "name": "galvantula",
       "types": ["bug", "electric"],
-      "url": "public/images/galvantula.png"
+      "url": "http://localhost:8080/images/galvantula.png"
     },
     {
       "id": "597",
       "name": "ferroseed",
       "types": ["grass", "steel"],
-      "url": "public/images/ferroseed.png"
+      "url": "http://localhost:8080/images/ferroseed.png"
     },
     {
       "id": "598",
       "name": "ferrothorn",
       "types": ["grass", "steel"],
-      "url": "public/images/ferrothorn.png"
+      "url": "http://localhost:8080/images/ferrothorn.png"
     },
     {
       "id": "599",
       "name": "klink",
       "types": ["steel"],
-      "url": "public/images/klink.png"
+      "url": "http://localhost:8080/images/klink.png"
     },
     {
       "id": "600",
       "name": "klang",
       "types": ["steel"],
-      "url": "public/images/klang.png"
+      "url": "http://localhost:8080/images/klang.png"
     },
     {
       "id": "601",
       "name": "klinklang",
       "types": ["steel"],
-      "url": "public/images/klinklang.png"
+      "url": "http://localhost:8080/images/klinklang.png"
     },
     {
       "id": "602",
       "name": "tynamo",
       "types": ["electric"],
-      "url": "public/images/tynamo.png"
+      "url": "http://localhost:8080/images/tynamo.png"
     },
     {
       "id": "603",
       "name": "eelektrik",
       "types": ["electric"],
-      "url": "public/images/eelektrik.png"
+      "url": "http://localhost:8080/images/eelektrik.png"
     },
     {
       "id": "604",
       "name": "eelektross",
       "types": ["electric"],
-      "url": "public/images/eelektross.png"
+      "url": "http://localhost:8080/images/eelektross.png"
     },
     {
       "id": "605",
       "name": "elgyem",
       "types": ["psychic"],
-      "url": "public/images/elgyem.png"
+      "url": "http://localhost:8080/images/elgyem.png"
     },
     {
       "id": "606",
       "name": "beheeyem",
       "types": ["psychic"],
-      "url": "public/images/beheeyem.png"
+      "url": "http://localhost:8080/images/beheeyem.png"
     },
     {
       "id": "607",
       "name": "litwick",
       "types": ["ghost", "fire"],
-      "url": "public/images/litwick.png"
+      "url": "http://localhost:8080/images/litwick.png"
     },
     {
       "id": "608",
       "name": "lampent",
       "types": ["ghost", "fire"],
-      "url": "public/images/lampent.png"
+      "url": "http://localhost:8080/images/lampent.png"
     },
     {
       "id": "609",
       "name": "chandelure",
       "types": ["ghost", "fire"],
-      "url": "public/images/chandelure.png"
+      "url": "http://localhost:8080/images/chandelure.png"
     },
     {
       "id": "610",
       "name": "axew",
       "types": ["dragon"],
-      "url": "public/images/axew.png"
+      "url": "http://localhost:8080/images/axew.png"
     },
     {
       "id": "611",
       "name": "fraxure",
       "types": ["dragon"],
-      "url": "public/images/fraxure.png"
+      "url": "http://localhost:8080/images/fraxure.png"
     },
     {
       "id": "612",
       "name": "haxorus",
       "types": ["dragon"],
-      "url": "public/images/haxorus.png"
+      "url": "http://localhost:8080/images/haxorus.png"
     },
     {
       "id": "613",
       "name": "cubchoo",
       "types": ["ice"],
-      "url": "public/images/cubchoo.png"
+      "url": "http://localhost:8080/images/cubchoo.png"
     },
     {
       "id": "614",
       "name": "beartic",
       "types": ["ice"],
-      "url": "public/images/beartic.png"
+      "url": "http://localhost:8080/images/beartic.png"
     },
     {
       "id": "615",
       "name": "cryogonal",
       "types": ["ice"],
-      "url": "public/images/cryogonal.png"
+      "url": "http://localhost:8080/images/cryogonal.png"
     },
     {
       "id": "616",
       "name": "shelmet",
       "types": ["bug"],
-      "url": "public/images/shelmet.png"
+      "url": "http://localhost:8080/images/shelmet.png"
     },
     {
       "id": "617",
       "name": "accelgor",
       "types": ["bug"],
-      "url": "public/images/accelgor.png"
+      "url": "http://localhost:8080/images/accelgor.png"
     },
     {
       "id": "618",
       "name": "stunfisk",
       "types": ["ground", "electric"],
-      "url": "public/images/stunfisk.png"
+      "url": "http://localhost:8080/images/stunfisk.png"
     },
     {
       "id": "619",
       "name": "mienfoo",
       "types": ["fighting"],
-      "url": "public/images/mienfoo.png"
+      "url": "http://localhost:8080/images/mienfoo.png"
     },
     {
       "id": "620",
       "name": "mienshao",
       "types": ["fighting"],
-      "url": "public/images/mienshao.png"
+      "url": "http://localhost:8080/images/mienshao.png"
     },
     {
       "id": "621",
       "name": "druddigon",
       "types": ["dragon"],
-      "url": "public/images/druddigon.png"
+      "url": "http://localhost:8080/images/druddigon.png"
     },
     {
       "id": "622",
       "name": "golett",
       "types": ["ground", "ghost"],
-      "url": "public/images/golett.png"
+      "url": "http://localhost:8080/images/golett.png"
     },
     {
       "id": "623",
       "name": "golurk",
       "types": ["ground", "ghost"],
-      "url": "public/images/golurk.png"
+      "url": "http://localhost:8080/images/golurk.png"
     },
     {
       "id": "624",
       "name": "pawniard",
       "types": ["dark", "steel"],
-      "url": "public/images/pawniard.png"
+      "url": "http://localhost:8080/images/pawniard.png"
     },
     {
       "id": "625",
       "name": "bisharp",
       "types": ["dark", "steel"],
-      "url": "public/images/bisharp.png"
+      "url": "http://localhost:8080/images/bisharp.png"
     },
     {
       "id": "626",
       "name": "bouffalant",
       "types": ["normal"],
-      "url": "public/images/bouffalant.png"
+      "url": "http://localhost:8080/images/bouffalant.png"
     },
     {
       "id": "627",
       "name": "rufflet",
       "types": ["normal", "flying"],
-      "url": "public/images/rufflet.png"
+      "url": "http://localhost:8080/images/rufflet.png"
     },
     {
       "id": "628",
       "name": "braviary",
       "types": ["normal", "flying"],
-      "url": "public/images/braviary.png"
+      "url": "http://localhost:8080/images/braviary.png"
     },
     {
       "id": "629",
       "name": "vullaby",
       "types": ["dark", "flying"],
-      "url": "public/images/vullaby.png"
+      "url": "http://localhost:8080/images/vullaby.png"
     },
     {
       "id": "630",
       "name": "mandibuzz",
       "types": ["dark", "flying"],
-      "url": "public/images/mandibuzz.png"
+      "url": "http://localhost:8080/images/mandibuzz.png"
     },
     {
       "id": "631",
       "name": "heatmor",
       "types": ["fire"],
-      "url": "public/images/heatmor.png"
+      "url": "http://localhost:8080/images/heatmor.png"
     },
     {
       "id": "632",
       "name": "durant",
       "types": ["bug", "steel"],
-      "url": "public/images/durant.png"
+      "url": "http://localhost:8080/images/durant.png"
     },
     {
       "id": "633",
       "name": "deino",
       "types": ["dark", "dragon"],
-      "url": "public/images/deino.png"
+      "url": "http://localhost:8080/images/deino.png"
     },
     {
       "id": "634",
       "name": "zweilous",
       "types": ["dark", "dragon"],
-      "url": "public/images/zweilous.png"
+      "url": "http://localhost:8080/images/zweilous.png"
     },
     {
       "id": "635",
       "name": "hydreigon",
       "types": ["dark", "dragon"],
-      "url": "public/images/hydreigon.png"
+      "url": "http://localhost:8080/images/hydreigon.png"
     },
     {
       "id": "636",
       "name": "larvesta",
       "types": ["bug", "fire"],
-      "url": "public/images/larvesta.png"
+      "url": "http://localhost:8080/images/larvesta.png"
     },
     {
       "id": "637",
       "name": "volcarona",
       "types": ["bug", "fire"],
-      "url": "public/images/volcarona.png"
+      "url": "http://localhost:8080/images/volcarona.png"
     },
     {
       "id": "638",
       "name": "cobalion",
       "types": ["steel", "fighting"],
-      "url": "public/images/cobalion.png"
+      "url": "http://localhost:8080/images/cobalion.png"
     },
     {
       "id": "639",
       "name": "terrakion",
       "types": ["rock", "fighting"],
-      "url": "public/images/terrakion.png"
+      "url": "http://localhost:8080/images/terrakion.png"
     },
     {
       "id": "640",
       "name": "virizion",
       "types": ["grass", "fighting"],
-      "url": "public/images/virizion.png"
+      "url": "http://localhost:8080/images/virizion.png"
     },
     {
       "id": "641",
       "name": "tornadus-incarnate",
       "types": ["flying"],
-      "url": "public/images/tornadus-incarnate.png"
+      "url": "http://localhost:8080/images/tornadus-incarnate.png"
     },
     {
       "id": "642",
       "name": "thundurus-incarnate",
       "types": ["electric", "flying"],
-      "url": "public/images/thundurus-incarnate.png"
+      "url": "http://localhost:8080/images/thundurus-incarnate.png"
     },
     {
       "id": "643",
       "name": "reshiram",
       "types": ["dragon", "fire"],
-      "url": "public/images/reshiram.png"
+      "url": "http://localhost:8080/images/reshiram.png"
     },
     {
       "id": "644",
       "name": "zekrom",
       "types": ["dragon", "electric"],
-      "url": "public/images/zekrom.png"
+      "url": "http://localhost:8080/images/zekrom.png"
     },
     {
       "id": "645",
       "name": "landorus-incarnate",
       "types": ["ground", "flying"],
-      "url": "public/images/landorus-incarnate.png"
+      "url": "http://localhost:8080/images/landorus-incarnate.png"
     },
     {
       "id": "646",
       "name": "kyurem",
       "types": ["dragon", "ice"],
-      "url": "public/images/kyurem.png"
+      "url": "http://localhost:8080/images/kyurem.png"
     },
     {
       "id": "647",
       "name": "keldeo-ordinary",
       "types": ["water", "fighting"],
-      "url": "public/images/keldeo-ordinary.png"
+      "url": "http://localhost:8080/images/keldeo-ordinary.png"
     },
     {
       "id": "648",
       "name": "meloetta-aria",
       "types": ["normal", "psychic"],
-      "url": "public/images/meloetta-aria.png"
+      "url": "http://localhost:8080/images/meloetta-aria.png"
     },
     {
       "id": "649",
       "name": "genesect",
       "types": ["bug", "steel"],
-      "url": "public/images/genesect.png"
+      "url": "http://localhost:8080/images/genesect.png"
     },
     {
       "id": "650",
       "name": "chespin",
       "types": ["grass"],
-      "url": "public/images/chespin.png"
+      "url": "http://localhost:8080/images/chespin.png"
     },
     {
       "id": "651",
       "name": "quilladin",
       "types": ["grass"],
-      "url": "public/images/quilladin.png"
+      "url": "http://localhost:8080/images/quilladin.png"
     },
     {
       "id": "652",
       "name": "chesnaught",
       "types": ["grass", "fighting"],
-      "url": "public/images/chesnaught.png"
+      "url": "http://localhost:8080/images/chesnaught.png"
     },
     {
       "id": "653",
       "name": "fennekin",
       "types": ["fire"],
-      "url": "public/images/fennekin.png"
+      "url": "http://localhost:8080/images/fennekin.png"
     },
     {
       "id": "654",
       "name": "braixen",
       "types": ["fire"],
-      "url": "public/images/braixen.png"
+      "url": "http://localhost:8080/images/braixen.png"
     },
     {
       "id": "655",
       "name": "delphox",
       "types": ["fire", "psychic"],
-      "url": "public/images/delphox.png"
+      "url": "http://localhost:8080/images/delphox.png"
     },
     {
       "id": "656",
       "name": "froakie",
       "types": ["water"],
-      "url": "public/images/froakie.png"
+      "url": "http://localhost:8080/images/froakie.png"
     },
     {
       "id": "657",
       "name": "frogadier",
       "types": ["water"],
-      "url": "public/images/frogadier.png"
+      "url": "http://localhost:8080/images/frogadier.png"
     },
     {
       "id": "658",
       "name": "greninja",
       "types": ["water", "dark"],
-      "url": "public/images/greninja.png"
+      "url": "http://localhost:8080/images/greninja.png"
     },
     {
       "id": "659",
       "name": "bunnelby",
       "types": ["normal"],
-      "url": "public/images/bunnelby.png"
+      "url": "http://localhost:8080/images/bunnelby.png"
     },
     {
       "id": "660",
       "name": "diggersby",
       "types": ["normal", "ground"],
-      "url": "public/images/diggersby.png"
+      "url": "http://localhost:8080/images/diggersby.png"
     },
     {
       "id": "661",
       "name": "fletchling",
       "types": ["normal", "flying"],
-      "url": "public/images/fletchling.png"
+      "url": "http://localhost:8080/images/fletchling.png"
     },
     {
       "id": "662",
       "name": "fletchinder",
       "types": ["fire", "flying"],
-      "url": "public/images/fletchinder.png"
+      "url": "http://localhost:8080/images/fletchinder.png"
     },
     {
       "id": "663",
       "name": "talonflame",
       "types": ["fire", "flying"],
-      "url": "public/images/talonflame.png"
+      "url": "http://localhost:8080/images/talonflame.png"
     },
     {
       "id": "664",
       "name": "scatterbug",
       "types": ["bug"],
-      "url": "public/images/scatterbug.png"
+      "url": "http://localhost:8080/images/scatterbug.png"
     },
     {
       "id": "665",
       "name": "spewpa",
       "types": ["bug"],
-      "url": "public/images/spewpa.png"
+      "url": "http://localhost:8080/images/spewpa.png"
     },
     {
       "id": "666",
       "name": "vivillon",
       "types": ["bug", "flying"],
-      "url": "public/images/vivillon.png"
+      "url": "http://localhost:8080/images/vivillon.png"
     },
     {
       "id": "667",
       "name": "litleo",
       "types": ["fire", "normal"],
-      "url": "public/images/litleo.png"
+      "url": "http://localhost:8080/images/litleo.png"
     },
     {
       "id": "668",
       "name": "pyroar",
       "types": ["fire", "normal"],
-      "url": "public/images/pyroar.png"
+      "url": "http://localhost:8080/images/pyroar.png"
     },
     {
       "id": "669",
       "name": "flabebe",
       "types": ["fairy"],
-      "url": "public/images/flabebe.png"
+      "url": "http://localhost:8080/images/flabebe.png"
     },
     {
       "id": "670",
       "name": "floette",
       "types": ["fairy"],
-      "url": "public/images/floette.png"
+      "url": "http://localhost:8080/images/floette.png"
     },
     {
       "id": "671",
       "name": "florges",
       "types": ["fairy"],
-      "url": "public/images/florges.png"
+      "url": "http://localhost:8080/images/florges.png"
     },
     {
       "id": "672",
       "name": "skiddo",
       "types": ["grass"],
-      "url": "public/images/skiddo.png"
+      "url": "http://localhost:8080/images/skiddo.png"
     },
     {
       "id": "673",
       "name": "gogoat",
       "types": ["grass"],
-      "url": "public/images/gogoat.png"
+      "url": "http://localhost:8080/images/gogoat.png"
     },
     {
       "id": "674",
       "name": "pancham",
       "types": ["fighting"],
-      "url": "public/images/pancham.png"
+      "url": "http://localhost:8080/images/pancham.png"
     },
     {
       "id": "675",
       "name": "pangoro",
       "types": ["fighting", "dark"],
-      "url": "public/images/pangoro.png"
+      "url": "http://localhost:8080/images/pangoro.png"
     },
     {
       "id": "676",
       "name": "furfrou",
       "types": ["normal"],
-      "url": "public/images/furfrou.png"
+      "url": "http://localhost:8080/images/furfrou.png"
     },
     {
       "id": "677",
       "name": "espurr",
       "types": ["psychic"],
-      "url": "public/images/espurr.png"
+      "url": "http://localhost:8080/images/espurr.png"
     },
     {
       "id": "678",
       "name": "meowstic-male",
       "types": ["psychic"],
-      "url": "public/images/meowstic-male.png"
+      "url": "http://localhost:8080/images/meowstic-male.png"
     },
     {
       "id": "679",
       "name": "honedge",
       "types": ["steel", "ghost"],
-      "url": "public/images/honedge.png"
+      "url": "http://localhost:8080/images/honedge.png"
     },
     {
       "id": "680",
       "name": "doublade",
       "types": ["steel", "ghost"],
-      "url": "public/images/doublade.png"
+      "url": "http://localhost:8080/images/doublade.png"
     },
     {
       "id": "681",
       "name": "aegislash-blade",
       "types": ["steel", "ghost"],
-      "url": "public/images/aegislash-blade.png"
+      "url": "http://localhost:8080/images/aegislash-blade.png"
     },
     {
       "id": "682",
       "name": "spritzee",
       "types": ["fairy"],
-      "url": "public/images/spritzee.png"
+      "url": "http://localhost:8080/images/spritzee.png"
     },
     {
       "id": "683",
       "name": "aromatisse",
       "types": ["fairy"],
-      "url": "public/images/aromatisse.png"
+      "url": "http://localhost:8080/images/aromatisse.png"
     },
     {
       "id": "684",
       "name": "swirlix",
       "types": ["fairy"],
-      "url": "public/images/swirlix.png"
+      "url": "http://localhost:8080/images/swirlix.png"
     },
     {
       "id": "685",
       "name": "slurpuff",
       "types": ["fairy"],
-      "url": "public/images/slurpuff.png"
+      "url": "http://localhost:8080/images/slurpuff.png"
     },
     {
       "id": "686",
       "name": "inkay",
       "types": ["dark", "psychic"],
-      "url": "public/images/inkay.png"
+      "url": "http://localhost:8080/images/inkay.png"
     },
     {
       "id": "687",
       "name": "malamar",
       "types": ["dark", "psychic"],
-      "url": "public/images/malamar.png"
+      "url": "http://localhost:8080/images/malamar.png"
     },
     {
       "id": "688",
       "name": "binacle",
       "types": ["rock", "water"],
-      "url": "public/images/binacle.png"
+      "url": "http://localhost:8080/images/binacle.png"
     },
     {
       "id": "689",
       "name": "barbaracle",
       "types": ["rock", "water"],
-      "url": "public/images/barbaracle.png"
+      "url": "http://localhost:8080/images/barbaracle.png"
     },
     {
       "id": "690",
       "name": "skrelp",
       "types": ["poison", "water"],
-      "url": "public/images/skrelp.png"
+      "url": "http://localhost:8080/images/skrelp.png"
     },
     {
       "id": "691",
       "name": "dragalge",
       "types": ["poison", "dragon"],
-      "url": "public/images/dragalge.png"
+      "url": "http://localhost:8080/images/dragalge.png"
     },
     {
       "id": "692",
       "name": "clauncher",
       "types": ["water"],
-      "url": "public/images/clauncher.png"
+      "url": "http://localhost:8080/images/clauncher.png"
     },
     {
       "id": "693",
       "name": "clawitzer",
       "types": ["water"],
-      "url": "public/images/clawitzer.png"
+      "url": "http://localhost:8080/images/clawitzer.png"
     },
     {
       "id": "694",
       "name": "helioptile",
       "types": ["electric", "normal"],
-      "url": "public/images/helioptile.png"
+      "url": "http://localhost:8080/images/helioptile.png"
     },
     {
       "id": "695",
       "name": "heliolisk",
       "types": ["electric", "normal"],
-      "url": "public/images/heliolisk.png"
+      "url": "http://localhost:8080/images/heliolisk.png"
     },
     {
       "id": "696",
       "name": "tyrunt",
       "types": ["rock", "dragon"],
-      "url": "public/images/tyrunt.png"
+      "url": "http://localhost:8080/images/tyrunt.png"
     },
     {
       "id": "697",
       "name": "tyrantrum",
       "types": ["rock", "dragon"],
-      "url": "public/images/tyrantrum.png"
+      "url": "http://localhost:8080/images/tyrantrum.png"
     },
     {
       "id": "698",
       "name": "amaura",
       "types": ["rock", "ice"],
-      "url": "public/images/amaura.png"
+      "url": "http://localhost:8080/images/amaura.png"
     },
     {
       "id": "699",
       "name": "aurorus",
       "types": ["rock", "ice"],
-      "url": "public/images/aurorus.png"
+      "url": "http://localhost:8080/images/aurorus.png"
     },
     {
       "id": "700",
       "name": "sylveon",
       "types": ["fairy"],
-      "url": "public/images/sylveon.png"
+      "url": "http://localhost:8080/images/sylveon.png"
     },
     {
       "id": "701",
       "name": "hawlucha",
       "types": ["fighting", "flying"],
-      "url": "public/images/hawlucha.png"
+      "url": "http://localhost:8080/images/hawlucha.png"
     },
     {
       "id": "702",
       "name": "dedenne",
       "types": ["electric", "fairy"],
-      "url": "public/images/dedenne.png"
+      "url": "http://localhost:8080/images/dedenne.png"
     },
     {
       "id": "703",
       "name": "carbink",
       "types": ["rock", "fairy"],
-      "url": "public/images/carbink.png"
+      "url": "http://localhost:8080/images/carbink.png"
     },
     {
       "id": "704",
       "name": "goomy",
       "types": ["dragon"],
-      "url": "public/images/goomy.png"
+      "url": "http://localhost:8080/images/goomy.png"
     },
     {
       "id": "705",
       "name": "sliggoo",
       "types": ["dragon"],
-      "url": "public/images/sliggoo.png"
+      "url": "http://localhost:8080/images/sliggoo.png"
     },
     {
       "id": "706",
       "name": "goodra",
       "types": ["dragon"],
-      "url": "public/images/goodra.png"
+      "url": "http://localhost:8080/images/goodra.png"
     },
     {
       "id": "707",
       "name": "klefki",
       "types": ["steel", "fairy"],
-      "url": "public/images/klefki.png"
+      "url": "http://localhost:8080/images/klefki.png"
     },
     {
       "id": "708",
       "name": "phantump",
       "types": ["ghost", "grass"],
-      "url": "public/images/phantump.png"
+      "url": "http://localhost:8080/images/phantump.png"
     },
     {
       "id": "709",
       "name": "trevenant",
       "types": ["ghost", "grass"],
-      "url": "public/images/trevenant.png"
+      "url": "http://localhost:8080/images/trevenant.png"
     },
     {
       "id": "710",
       "name": "pumpkaboo-average",
       "types": ["ghost", "grass"],
-      "url": "public/images/pumpkaboo-average.png"
+      "url": "http://localhost:8080/images/pumpkaboo-average.png"
     },
     {
       "id": "711",
       "name": "gourgeist-average",
       "types": ["ghost", "grass"],
-      "url": "public/images/gourgeist-average.png"
+      "url": "http://localhost:8080/images/gourgeist-average.png"
     },
     {
       "id": "712",
       "name": "bergmite",
       "types": ["ice"],
-      "url": "public/images/bergmite.png"
+      "url": "http://localhost:8080/images/bergmite.png"
     },
     {
       "id": "713",
       "name": "avalugg",
       "types": ["ice"],
-      "url": "public/images/avalugg.png"
+      "url": "http://localhost:8080/images/avalugg.png"
     },
     {
       "id": "714",
       "name": "noibat",
       "types": ["flying", "dragon"],
-      "url": "public/images/noibat.png"
+      "url": "http://localhost:8080/images/noibat.png"
     },
     {
       "id": "715",
       "name": "noivern",
       "types": ["flying", "dragon"],
-      "url": "public/images/noivern.png"
+      "url": "http://localhost:8080/images/noivern.png"
     },
     {
       "id": "716",
       "name": "xerneas",
       "types": ["fairy"],
-      "url": "public/images/xerneas.png"
+      "url": "http://localhost:8080/images/xerneas.png"
     },
     {
       "id": "717",
       "name": "yveltal",
       "types": ["dark", "flying"],
-      "url": "public/images/yveltal.png"
+      "url": "http://localhost:8080/images/yveltal.png"
     },
     {
       "id": "718",
       "name": "zygarde-50",
       "types": ["dragon", "ground"],
-      "url": "public/images/zygarde-50.png"
+      "url": "http://localhost:8080/images/zygarde-50.png"
     },
     {
       "id": "719",
       "name": "diancie",
       "types": ["rock", "fairy"],
-      "url": "public/images/diancie.png"
+      "url": "http://localhost:8080/images/diancie.png"
     },
     {
       "id": "720",
       "name": "hoopa-confined",
       "types": ["psychic", "ghost"],
-      "url": "public/images/hoopa-confined.png"
+      "url": "http://localhost:8080/images/hoopa-confined.png"
     },
     {
       "id": "721",
       "name": "volcanion",
       "types": ["fire", "water"],
-      "url": "public/images/volcanion.png"
-    },
-    {
-      "id": "722",
-      "name": "hello bgfbgfb hello",
-      "types": ["water", "grass"],
-      "url": "public/images/vikavolt.jpg"
-    },
-    {
-      "id": "727",
-      "name": "hello fwefwef hello",
-      "types": ["water", "fire"],
-      "url": "public/images/vikavolt.jpg"
-    },
-    {
-      "id": "729",
-      "name": "hello dsvdv hello",
-      "types": ["water", "fire"],
-      "url": "public/images/vikavolt.jpg"
+      "url": "http://localhost:8080/images/volcanion.png"
     }
   ]
 }

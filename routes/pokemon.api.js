@@ -20,7 +20,7 @@ const getDataPokemon = async () => {
       const imagePath = `public/images/${imageName}`;
 
       if (fs.existsSync(imagePath)) {
-        const imageUrl = `public/images/${imageName}`;
+        const imageUrl = `http://localhost:8080/images/${imageName}`;
         const types = [];
 
         if (pokemon.Type1) {
@@ -71,7 +71,7 @@ router.get("/", (req, res, next) => {
   try {
     let { page, limit, ...filterQuery } = req.query;
     page = parseInt(page) || 1;
-    limit = parseInt(limit) || 10;
+    limit = parseInt(limit) || 20;
     // Allow only specified filters
     const filterKeys = Object.keys(filterQuery).filter((key) =>
       allowedFilter.includes(key)
