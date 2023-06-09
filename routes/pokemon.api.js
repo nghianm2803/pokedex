@@ -131,7 +131,7 @@ router.get("/:pokemonId", (req, res, next) => {
       return res.status(404).json({ message: "Pokemon not found" });
     }
     // Get the requested Pokemon
-    const requestedPokemon = pokemons[index];
+    const pokemon = pokemons[index];
     // Get the previous Pokemon
     const previousPokemon =
       pokemons[index - 1] || pokemons[pokemons.length - 1];
@@ -140,7 +140,7 @@ router.get("/:pokemonId", (req, res, next) => {
 
     // Send the response
     res.status(200).json({
-      requestedPokemon,
+      pokemon,
       previousPokemon,
       nextPokemon,
     });
