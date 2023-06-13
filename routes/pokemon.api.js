@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const csv = require("csvtojson");
+const convert = require("convert-units");
 
 const getDataPokemon = async () => {
   const dbExists = fs.existsSync("db.json");
@@ -18,6 +19,13 @@ const getDataPokemon = async () => {
       const pokemon = newData[i];
       const imageName = `${pokemon.name}.png`;
       const imagePath = `public/images/${imageName}`;
+
+      const heightInMeters = parseFloat(pokemon.height_m);
+      const heightInFt = convert(heightInMeters).from("m").to("ft");
+
+      const weightInKg = parseFloat(pokemon.weight_kg);
+      const weightInPounds = convert(weightInKg).from("kg").to("lb");
+      const formattedWeight = weightInPounds.toFixed(1);
 
       if (fs.existsSync(imagePath)) {
         const imageUrl = `http://localhost:8080/images/${imageName}`;
@@ -36,8 +44,8 @@ const getDataPokemon = async () => {
           name: pokemon.name,
           types: types,
           url: imageUrl,
-          height: pokemon.height_m,
-          weight: pokemon.weight_kg,
+          height: heightInFt.toString(),
+          weight: formattedWeight,
           category: pokemon.classfication,
           abilities: pokemon.abilities,
         };
@@ -191,12 +199,16 @@ const pokemonTypes = [
 
 router.post("/", (req, res, next) => {
   try {
-    const { name, types, url } = req.body;
+    const { name, types, url, height, weight, category, abilities } = req.body;
 
     // Validate input
     validatePokemon(name, "Missing Pokemon's name");
     validatePokemon(types, "Missing Pokemon's type");
     validatePokemon(url, "Missing Pokemon's URL");
+    validatePokemon(height, "Missing Pokemon's height");
+    validatePokemon(weight, "Missing Pokemon's weight");
+    validatePokemon(category, "Missing Pokemon's category");
+    validatePokemon(abilities, "Missing Pokemon's abilities");
 
     // Read data from db.json then parse to JS object
     let db = fs.readFileSync("db.json", "utf-8");
@@ -249,6 +261,10 @@ router.post("/", (req, res, next) => {
       name,
       types,
       url,
+      height,
+      weight,
+      category,
+      abilities,
     };
     maxPokemonId += 1;
 
@@ -283,7 +299,15 @@ router.post("/", (req, res, next) => {
 router.put("/:pokemonId", (req, res, next) => {
   //put input validation
   try {
-    const allowUpdate = ["name", "types", "url"];
+    const allowUpdate = [
+      "name",
+      "types",
+      "url",
+      "height",
+      "weight",
+      "category",
+      "abilities",
+    ];
 
     const { pokemonId } = req.params;
 
@@ -314,11 +338,15 @@ router.put("/:pokemonId", (req, res, next) => {
       throw exception;
     }
 
-    const { name, types, url } = updates;
+    const { name, types, url, height, weight, category, abilities } = updates;
 
     validatePokemon(name, "Missing Pokemon's name");
     validatePokemon(types, "Missing Pokemon's type");
     validatePokemon(url, "Missing Pokemon's URL");
+    validatePokemon(height, "Missing Pokemon's height");
+    validatePokemon(weight, "Missing Pokemon's weight");
+    validatePokemon(category, "Missing Pokemon's category");
+    validatePokemon(abilities, "Missing Pokemon's abilities");
 
     // Check duplicate pokemon's name
     if (name !== undefined) {
@@ -390,7 +418,7 @@ router.delete("/:pokemonId", (req, res, next) => {
     // Read data from db.json and parse it to a JavaScript object
     let db = fs.readFileSync("db.json", "utf-8");
     db = JSON.parse(db);
-    const { totalPokemons, pokemons } = db;
+    const { pokemons } = db;
 
     // Find the index of the Pokemon to be deleted
     const targetIndex = pokemons.findIndex(
