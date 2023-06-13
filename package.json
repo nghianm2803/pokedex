@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "node ./bin/www",
-    "build": "npm run build",
-    "start": ""
+    "start": "node ./bin/www",
+    "build": "npm run build"
   },
   "dependencies": {
     "convert-units": "^2.3.4",
