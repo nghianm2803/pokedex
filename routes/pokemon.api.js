@@ -6,36 +6,40 @@ const csv = require("csvtojson");
 const getDataPokemon = async () => {
   const dbExists = fs.existsSync("db.json");
   if (dbExists) {
-    console.log("Skipping get data from pokemon.csv.");
+    console.log("Skipping reset data from pokemone-expand.csv.");
     return;
   }
 
   try {
-    let newData = await csv().fromFile("pokemon.csv");
+    let newData = await csv().fromFile("pokemone-expand.csv");
     const pokemonWithImages = [];
 
     for (let i = 0; i < newData.length; i++) {
       const pokemon = newData[i];
-      const imageName = `${pokemon.Name}.png`;
+      const imageName = `${pokemon.name}.png`;
       const imagePath = `public/images/${imageName}`;
 
       if (fs.existsSync(imagePath)) {
         const imageUrl = `http://localhost:8080/images/${imageName}`;
         const types = [];
 
-        if (pokemon.Type1) {
-          types.push(pokemon.Type1.toLowerCase());
+        if (pokemon.type1) {
+          types.push(pokemon.type1.toLowerCase());
         }
 
-        if (pokemon.Type2) {
-          types.push(pokemon.Type2.toLowerCase());
+        if (pokemon.type2) {
+          types.push(pokemon.type2.toLowerCase());
         }
 
         const newPokemon = {
           id: (i + 1).toString(),
-          name: pokemon.Name,
+          name: pokemon.name,
           types: types,
           url: imageUrl,
+          height: pokemon.height_m,
+          weight: pokemon.weight_kg,
+          category: pokemon.classfication,
+          abilities: pokemon.abilities,
         };
 
         pokemonWithImages.push(newPokemon);
@@ -50,9 +54,9 @@ const getDataPokemon = async () => {
     };
 
     fs.writeFileSync("db.json", JSON.stringify(data));
-    console.log("Data update successful.");
+    console.log("Reset data from pokemone-expand.csv successful.");
   } catch (error) {
-    console.log("Error updating data:", error);
+    console.log("Error reset data:", error);
   }
 };
 
