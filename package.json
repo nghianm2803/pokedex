@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node ./bin/www",
-    "build": "node ./routes/index.js"
+    "build": "yarn run build"
   },
   "dependencies": {
     "convert-units": "^2.3.4",
