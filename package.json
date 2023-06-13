@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "node ./bin/www",
-    "build": "npm run build"
+    "build": "npm run build",
+    "start": ""
   },
   "dependencies": {
     "convert-units": "^2.3.4",
