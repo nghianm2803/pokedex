@@ -206,10 +206,10 @@ router.post("/", (req, res, next) => {
     validatePokemon(name, "Missing Pokemon's name");
     validatePokemon(types, "Missing Pokemon's type");
     validatePokemon(url, "Missing Pokemon's URL");
-    validatePokemon(height, "Missing Pokemon's height");
-    validatePokemon(weight, "Missing Pokemon's weight");
-    validatePokemon(category, "Missing Pokemon's category");
-    validatePokemon(abilities, "Missing Pokemon's abilities");
+    // validatePokemon(height, "Missing Pokemon's height");
+    // validatePokemon(weight, "Missing Pokemon's weight");
+    // validatePokemon(category, "Missing Pokemon's category");
+    // validatePokemon(abilities, "Missing Pokemon's abilities");
 
     // Read data from db.json then parse to JS object
     let db = fs.readFileSync("db.json", "utf-8");
@@ -344,10 +344,10 @@ router.put("/:pokemonId", (req, res, next) => {
     validatePokemon(name, "Missing Pokemon's name");
     validatePokemon(types, "Missing Pokemon's type");
     validatePokemon(url, "Missing Pokemon's URL");
-    validatePokemon(height, "Missing Pokemon's height");
-    validatePokemon(weight, "Missing Pokemon's weight");
-    validatePokemon(category, "Missing Pokemon's category");
-    validatePokemon(abilities, "Missing Pokemon's abilities");
+    // validatePokemon(height, "Missing Pokemon's height");
+    // validatePokemon(weight, "Missing Pokemon's weight");
+    // validatePokemon(category, "Missing Pokemon's category");
+    // validatePokemon(abilities, "Missing Pokemon's abilities");
 
     // Check duplicate pokemon's name
     if (name !== undefined) {
