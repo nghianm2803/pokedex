@@ -17,7 +17,7 @@ const getDataPokemon = async () => {
 
     for (let i = 0; i < newData.length; i++) {
       const pokemon = newData[i];
-      const imageName = `${pokemon.name}.png`;
+      const imageName = `${pokemon.name.toLowerCase()}.png`;
       const imagePath = `public/images/${imageName}`;
 
       const heightInMeters = parseFloat(pokemon.height_m);
@@ -28,7 +28,8 @@ const getDataPokemon = async () => {
       const formattedWeight = weightInPounds.toFixed(1);
 
       if (fs.existsSync(imagePath)) {
-        const imageUrl = `http://localhost:8080/images/${imageName}`;
+        // const imageUrl = `http://localhost:8080/images/${imageName}`;
+        const imageUrl = `https://pokedex-doo.onrender.com/images/${imageName}`;
         const types = [];
 
         if (pokemon.type1) {
